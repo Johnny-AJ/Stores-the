@@ -1,0 +1,169 @@
+/* pages/transaction/transaction.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1362rpx;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+.top_box {
+  width: 750rpx;
+  height: 218rpx;
+  background: rgba(103, 148, 250, 1);
+  margin-bottom: 20rpx;
+}
+
+.top_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 750rpx;
+  height: 28rpx;
+  border: 1px solid red;
+}
+
+.left_nav {
+  width: 203rpx;
+  border: 1px solid red;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+
+.right_nav {
+  width: 203rpx;
+  border: 1px solid red;
+  margin-top: 30rpx;
+  margin-right: 30rpx;
+}
+
+.right_nav .t1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.left_nav .t1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav_box {
+  width: 750rpx;
+  height: 80rpx;
+  border: 1px solid red;
+  margin-top: 50rpx;
+  display: flex;
+}
+
+.nav_box .nav_box_input {
+  width: 510rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin-left: 30rpx;
+}
+
+.nav_box .search {
+  width: 150rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(103, 148, 250, 1);
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.nav_box_input input {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(204, 204, 204, 1);
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.user_box {
+  width: 750rpx;
+  height: 250rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+}
+
+.top1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top1 .u1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(103, 148, 250, 1);
+  margin-left: 30rpx;
+}
+
+.top1 .u2 {
+  width: 103rpx;
+  height: 30rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  margin-right: 30rpx;
+}
+
+.u2 .imgs image {
+  width: 30rpx;
+  height: 28rpx;
+}
+
+.u2 .i1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 6rpx;
+}
+
+.user_box .t1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+  margin-top: 20rpx;
+  margin-left: 29rpx;
+}
+
+.const {
+  width: 690rpx;
+  height: 40rpx;
+  border: 1px solid red;
+  margin-left: 29rpx;
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_const .c1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}
+
+.right_const .imgss {
+  margin-top: 7rpx;
+}
+
+.right_const .imgss image {
+  width: 60rpx;
+  height: 40rpx;
+}

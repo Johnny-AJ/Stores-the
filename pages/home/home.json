@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-notice-bar": "../../dist/notice-bar/index"
+  },
+  "navigationBarTitleText": "首页",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#2a52f8"
+}

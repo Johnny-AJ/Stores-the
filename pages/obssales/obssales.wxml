@@ -1,0 +1,22 @@
+<!--pages/obssales/obssales.wxml-->
+<!-- <text>pages/obssales/obssales.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top_box">
+    <view class="top_left">商品销售统计</view>
+    <view class="top_right">
+      <view class="t1">详情</view>
+      <view class="imgs">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="photo">
+    <view class="imgss">
+      <image src="../../static/imgs/组 12.png"></image>
+    </view>
+    <view class="p1">￥2356.00</view>
+  </view>
+</view>

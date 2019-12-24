@@ -1,0 +1,47 @@
+<!--pages/grade/grade.wxml-->
+<!-- <text>pages/grade/grade.wxml</text> -->
+
+<!--pages/general/general.wxml-->
+<!-- <text>pages/general/general.wxml</text> -->
+
+<view class="bgc">
+  <view class="b"></view>
+
+  <view class="photo_img">
+    <view class="img">
+      <image src="../../static/imgs/小樱.jpg"></image>
+    </view>
+    <view class="p1">用户1</view>
+  </view>
+
+  <view class="general">
+    <view class="z1">总评：</view>
+    <i-cell class="s1">
+      <i-rate bind:change="onChange2" value="{{starIndex2}}" size="30"></i-rate>
+    </i-cell>
+    <view class="fen">80分</view>
+  </view>
+
+  <view class="genera2">
+    <view class="z1">专业程度：</view>
+    <i-cell class="s1">
+      <i-rate bind:change="onChange2" value="{{starIndex2}}" size="30"></i-rate>
+    </i-cell>
+    <view class="fen">80分</view>
+  </view>
+
+  <view class="genera2">
+    <view class="z1">沟通态度：</view>
+    <i-cell class="s1">
+      <i-rate bind:change="onChange2" value="{{starIndex2}}" size="30"></i-rate>
+    </i-cell>
+    <view class="fen1">评分</view>
+  </view>
+
+  <view class="remark">
+    <view class="r1">备注：</view>
+    <textarea class="r2" placeholder="业务员管理得很不错"></textarea>
+  </view>
+
+  <view class="btn">提交</view>
+</view>

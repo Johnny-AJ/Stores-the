@@ -1,0 +1,84 @@
+<!--pages/publicrecords/publicrecords.wxml-->
+<!-- <text>pages/publicrecords/publicrecords.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="nav_box">
+    <view class="door">门店1</view>
+
+    <view class="deal">交易商品：Dr.Jart 保湿急救网红蓝药丸面膜</view>
+
+    <view class="order_form">
+      <view class="o1">订单实付金额：</view>
+      <view class="o1">￥79.00</view>
+    </view>
+
+    <view class="order_form1">
+      <view class="o1">订单实收金额：</view>
+      <view class="o2">￥79.00</view>
+    </view>
+
+    <view class="order_number">
+      <view class="number1">订单号：</view>
+      <view class="number1">201908230000001</view>
+    </view>
+
+    <view class="order_number1">
+      <view class="number1">订单号：</view>
+      <view class="number1">2019/08/23 12:00:00</view>
+    </view>
+  </view>
+
+  <view class="nav_box">
+    <view class="door">门店1</view>
+
+    <view class="deal">交易商品：Dr.Jart 保湿急救网红蓝药丸面膜</view>
+
+    <view class="order_form">
+      <view class="o1">订单实付金额：</view>
+      <view class="o1">￥79.00</view>
+    </view>
+
+    <view class="order_form1">
+      <view class="o1">订单实收金额：</view>
+      <view class="o2">￥79.00</view>
+    </view>
+
+    <view class="order_number">
+      <view class="number1">订单号：</view>
+      <view class="number1">201908230000001</view>
+    </view>
+
+    <view class="order_number1">
+      <view class="number1">订单号：</view>
+      <view class="number1">2019/08/23 12:00:00</view>
+    </view>
+  </view>
+
+  <view class="nav_box">
+    <view class="door">门店1</view>
+
+    <view class="deal">交易商品：Dr.Jart 保湿急救网红蓝药丸面膜</view>
+
+    <view class="order_form">
+      <view class="o1">订单实付金额：</view>
+      <view class="o1">￥79.00</view>
+    </view>
+
+    <view class="order_form1">
+      <view class="o1">订单实收金额：</view>
+      <view class="o2">￥79.00</view>
+    </view>
+
+    <view class="order_number">
+      <view class="number1">订单号：</view>
+      <view class="number1">201908230000001</view>
+    </view>
+
+    <view class="order_number1">
+      <view class="number1">订单号：</view>
+      <view class="number1">2019/08/23 12:00:00</view>
+    </view>
+  </view>
+</view>

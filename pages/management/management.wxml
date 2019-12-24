@@ -1,0 +1,47 @@
+<!--pages/management/management.wxml-->
+<!-- <text>pages/management/management.wxml</text> -->
+
+<view class="bgc">
+  <view class="b"></view>
+  <view class="top_box">
+    <view class="imgs">
+      <image src="../../static/imgs/小樱.jpg"></image>
+    </view>
+    <view class="y1">用户1</view>
+  </view>
+
+  <view class="shopping">购买商品</view>
+
+  <view class="commodity">
+    <view class="commodity_left">
+      <view class="imgss">
+        <image src="../../static/imgs/imgs1.png"></image>
+      </view>
+    </view>
+    <view class="commodity_right">
+      <view class="c1">Dr.Jart+ 宛若新生水漾宝石急救面膜</view>
+      <view class="box">
+        <view class="c2">5片/盒</view>
+        <view class="c2">X1</view>
+      </view>
+      <view class="c3">￥79</view>
+    </view>
+  </view>
+
+  <view class="evaluate">
+    <view class="e1">评价</view>
+    <view class="e2">
+      体验感好；服务态度好；地理位置便利；商品种 类多。
+    </view>
+  </view>
+
+  <view class="remark">
+    <view class="r1">备注</view>
+    <view class="r2"></view>
+  </view>
+
+  <view class="time">
+    <view class="t1">评价时间</view>
+    <view class="t2">2019-12-12 12:00</view>
+  </view>
+</view>

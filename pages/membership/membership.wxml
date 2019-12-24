@@ -1,0 +1,36 @@
+<!--pages/membership/membership.wxml-->
+<!-- <text>pages/membership/membership.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="top">
+    <view class="t1"></view>
+    <view class="t2">会员信息</view>
+  </view>
+
+  <view class="nav_box">
+    <view class="n1">姓名：</view>
+    <view class="n2">用户名1</view>
+  </view>
+
+  <view class="nav_box">
+    <view class="n1">联系电话：</view>
+    <view class="n2">13923812345</view>
+  </view>
+
+  <view class="nav_box">
+    <view class="n1">地址：</view>
+    <view class="n2">广东省-广州市-天河区</view>
+  </view>
+
+  <view class="nav_box">
+    <view class="n1">详细地址：</view>
+    <view class="n2">长湴白沙水路119号</view>
+  </view>
+
+  <view class="nav_box">
+    <view class="n1">注册日期：</view>
+    <view class="n2">2019/08/23</view>
+  </view>
+</view>

@@ -1,0 +1,142 @@
+/* pages/grade/grade.wxss */
+
+/* pages/general/general.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1362rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.b {
+  border-top: 1px solid #f5f5f5;
+}
+
+.photo_img {
+  width: 750rpx;
+  height: 70rpx;
+  border: 1px solid red;
+  margin-top: 30rpx;
+  display: flex;
+  line-height: 70rpx;
+}
+
+.photo_img .img image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 30rpx;
+  margin-left: 30rpx;
+}
+
+.photo_img .p1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 20rpx;
+}
+
+.general {
+  width: 750rpx;
+  height: 40rpx;
+  border: 1px solid red;
+  margin-top: 56rpx;
+  display: flex;
+  align-items: center;
+}
+
+.general .z1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-left: 30rpx;
+  margin-right: 100rpx;
+}
+
+.general .fen {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(247, 180, 1, 1);
+  margin-left: 120rpx;
+}
+
+.genera2 {
+  width: 750rpx;
+  height: 40rpx;
+  border: 1px solid red;
+  margin-top: 56rpx;
+  display: flex;
+  align-items: center;
+}
+
+.genera2 .z1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin-left: 30rpx;
+  margin-right: 50rpx;
+}
+
+.genera2 .fen {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(247, 180, 1, 1);
+  margin-left: 113rpx;
+}
+
+.genera2 .fen1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 113rpx;
+}
+
+.remark {
+  width: 690rpx;
+  height: 150rpx;
+  border: 1px solid red;
+  margin-top: 94rpx;
+  margin-left: 30rpx;
+  display: flex;
+}
+
+.remark .r1 {
+  width: 90rpx;
+  height: 150rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.remark .r2 {
+  width: 600rpx;
+  height: 150rpx;
+  border: 1px solid rgba(228, 228, 228, 1);
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(204, 204, 204, 1);
+}
+
+.btn {
+  width: 690rpx;
+  height: 88rpx;
+  background: rgba(103, 148, 250, 1);
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 88rpx;
+  position: absolute;
+  bottom: 365rpx;
+  left: 30rpx;
+}

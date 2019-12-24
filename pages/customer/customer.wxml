@@ -1,0 +1,56 @@
+<!--pages/customer/customer.wxml-->
+<!-- <text>pages/customer/customer.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="top_box">
+    <view class="top">客户行为统计</view>
+
+    <view class="bottom">
+      <view class="photo_box">
+        <view class="p1">近7天</view>
+        <view class="imgs">
+          <image src="../../static/imgs/矩形 3.png"></image>
+        </view>
+      </view>
+
+      <view class="p2">2019-09-09-2019-09-15</view>
+    </view>
+  </view>
+
+
+  <view class="kong">
+
+    <view class="kong_bos">
+      <view class="box1">
+        <view class="b1">客户访问量</view>
+        <view class="b1">0</view>
+      </view>
+
+      <view class="box2">
+        <view class="b2">客户下单量</view>
+        <view class="b2">0</view>
+      </view>
+
+      <view class="box2">
+        <view class="b2">未付款客户量</view>
+        <view class="b2">0</view>
+      </view>
+    </view>
+
+    <view class="imgs1">
+      <image src="../../static/imgs/图表.png"></image>
+    </view>
+
+    <view class="number">
+      <view class="n1">09.09</view>
+      <view class="n1">09.10</view>
+      <view class="n1">09.11</view>
+      <view class="n1">09.12</view>
+      <view class="n1">09.13</view>
+      <view class="n1">09.14</view>
+      <view class="n1">09.15</view>
+    </view>
+  </view>
+</view>

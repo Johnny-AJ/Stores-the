@@ -1,0 +1,22 @@
+<!--pages/order_list/order_list.wxml-->
+<!-- <text>pages/order_list/order_list.wxml</text> -->
+
+<!--pages/amount/amount.wxml-->
+<!-- <text>pages/amount/amount.wxml</text> -->
+
+
+<view class="bgc">
+  <view class="big_box">
+    <view class="ding">订单量统计</view>
+    <view class="photo_box">
+      <view class="jin">近7天</view>
+      <view class="imgs">
+        <image src="../../static/imgs/矩形 3.png"></image>
+      </view>
+    </view>
+    <view class="number">2019-09-09-2019-09-15</view>
+    <view class="imgss">
+      <image src="../../static/imgs/图表.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,74 @@
+<!--pages/shop/shop.wxml-->
+<!-- <text>pages/shop/shop.wxml</text> -->
+
+
+
+
+<view class="bgc">
+
+  <i-tabs current="{{ current }}" color="#5f9cfb" bindchange="handleChange">
+    <i-tab key="tab1" title="门店"></i-tab>
+    <i-tab key="tab2" title="业务员"></i-tab>
+  </i-tabs>
+
+
+  <view class="box">
+    <view class="photo_box">
+      <view class="imgs">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="p1">用户1</view>
+    </view>
+
+    <view class="photo_bottom">
+      <view class="left-box">
+        <view class="l1">满意</view>
+        <view class="l1">店内环境卫生、服务态度好</view>
+        <view class="l1">2019/09/16</view>
+      </view>
+      <view class="right-box">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="box">
+    <view class="photo_box">
+      <view class="imgs">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="p1">用户1</view>
+    </view>
+
+    <view class="photo_bottom">
+      <view class="left-box">
+        <view class="l1">满意</view>
+        <view class="l1">店内环境卫生、服务态度好</view>
+        <view class="l1">2019/09/16</view>
+      </view>
+      <view class="right-box">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="box">
+    <view class="photo_box">
+      <view class="imgs">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="p1">用户1</view>
+    </view>
+
+    <view class="photo_bottom">
+      <view class="left-box">
+        <view class="l1">满意</view>
+        <view class="l1">店内环境卫生、服务态度好</view>
+        <view class="l1">2019/09/16</view>
+      </view>
+      <view class="right-box">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,105 @@
+/* pages/login/login.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334prx;
+}
+
+/* 图 */
+
+.photo_box {
+  width: 750rpx;
+  height: 487rpx;
+  display: flex;
+  position: relative;
+}
+
+.photo_box .imgs1 image {
+  width: 750rpx;
+  height: 487rpx;
+}
+
+.photo_box .imgs2 image {
+  width: 110rpx;
+  height: 110rpx;
+  position: absolute;
+  top: 159rpx;
+  left: 312rpx;
+}
+
+.photo_box .p1 {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: 127rpx;
+  left: 290rpx;
+}
+
+/* 中间 */
+
+.login_box {
+  width: 750rpx;
+  height: 847rpx;
+  position: relative;
+}
+
+.const_box {
+  position: absolute;
+  top: 111rpx;
+  left: 92rpx;
+}
+
+.const {
+  width: 750rpx;
+  height: 60rpx;
+  border: 1px solid red;
+  display: flex;
+  margin-bottom: 51rpx;
+}
+
+.const .imgs3 image {
+  width: 35rpx;
+  height: 52rpx;
+  margin-right: 29rpx;
+}
+
+.const input {
+  border-bottom: 4rpx solid rgba(103, 148, 250, 1);
+  width: 500rpx;
+  height: 3px;
+  margin-top: 12rpx;
+}
+
+.login_box .huoqu {
+  width: 180rpx;
+  height: 66rpx;
+  background: rgba(103, 148, 250, 1);
+  border-radius: 33rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 66rpx;
+  position: absolute;
+  top: 210rpx;
+  right: 93rpx;
+}
+
+.login_box .zhuce {
+  width: 619rpx;
+  height: 107rpx;
+  border-radius: 50rpx;
+  background-color: #5194fb;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 107rpx;
+  position: absolute;
+  bottom: 292rpx;
+  right: 65rpx;
+}

@@ -1,0 +1,80 @@
+/* pages/obssales/obssales.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: skyblue;
+  overflow: hidden;
+  position: relative;
+}
+
+.top_box {
+  width: 750rpx;
+  height: 100rpx;
+  background: rgba(255, 255, 255, 1);
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+
+.top_left {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+
+.top_right {
+  width: 100rpx;
+  height: 29rpx;
+  /* border: 1px solid red; */
+  margin-right: 30rpx;
+  display: flex;
+  line-height: 29rpx;
+}
+
+.top_right .t1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.top_right .imgs {
+  margin-left: 23rpx;
+}
+
+.top_right .imgs image {
+  width: 17rpx;
+  height: 29rpx;
+}
+
+.photo {
+  width: 750rpx;
+  height: 1086rpx;
+  background: rgba(255, 255, 255, 1);
+}
+
+.photo .imgss {
+  position: absolute;
+  top: 300rpx;
+  left: 175rpx;
+}
+
+.photo .imgss image {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.photo .p1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  position: absolute;
+  top: 472rpx;
+  left: 300rpx;
+}

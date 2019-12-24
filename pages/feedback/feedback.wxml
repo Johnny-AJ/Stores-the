@@ -1,0 +1,30 @@
+<!--pages/feedback/feedback.wxml-->
+<!-- <text>pages/feedback/feedback.wxml</text> -->
+
+<view class="bgc">
+  <view class="b"></view>
+
+  <view class="type">
+    <view class="t1">问题类型</view>
+  </view>
+
+  <view class="box_box">
+    <view class="b1">体验装</view>
+    <view class="b2">体验装</view>
+    <view class="b3">展柜保修</view>
+    <view class="b4">门店收益</view>
+    <view class="b5">提成</view>
+    <view class="b6">会员信息</view>
+    <view class="b7">活动</view>
+    <view class="b7">客服</view>
+    <view class="b7">其他</view>
+  </view>
+
+  <view class="type">
+    <view class="t1">问题类型</view>
+  </view>
+
+  <view class="box"></view>
+
+  <view class="btn">提交</view>
+</view>

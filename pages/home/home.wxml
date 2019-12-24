@@ -1,0 +1,139 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top">
+    <i-notice-bar icon="systemprompt" speed="1000" loop>
+      关于O2O商品上架修改问题;关于O2O商品上架修改问题;
+    </i-notice-bar>
+  </view>
+
+  <!-- 金额 -->
+  <view class="top_box">
+    <view class="imgs">
+      <image src="../../static/imgs/背景上.png"></image>
+    </view>
+
+    <view class="pricr1">
+      <view class="p1">83456.05</view>
+      <view class="p2">本月门店收益</view>
+    </view>
+
+    <view class="price2">
+      <view class="p3">9356.00</view>
+      <view class="p4">待结算金额</view>
+    </view>
+
+    <view class="price3">
+      <view class="p3">1236.00</view>
+      <view class="p4">已结算金额</view>
+    </view>
+
+    <view class="imgs1">
+      <image src="../../static/imgs/组 4.png"></image>
+    </view>
+    <view class="xian"></view>
+  </view>
+
+  <!-- 按钮 -->
+  <view class="nav_box">
+    <!-- 1 -->
+    <view class="small_box">
+      <view class="img2">
+        <image src="../../static/imgs/会员管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <!-- 2 -->
+    <view class="small_box1">
+      <view class="img3">
+        <image src="../../static/imgs/财务管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <!-- 3 -->
+    <view class="small_box2">
+      <view class="img4">
+        <image src="../../static/imgs/会员管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <!-- 4 -->
+    <view class="small_box3">
+      <view class="img5">
+        <image src="../../static/imgs/扫码管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <!-- 5 -->
+    <view class="small_box4">
+      <view class="img5">
+        <image src="../../static/imgs/扫码管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <!-- 6 -->
+    <view class="small_box5">
+      <view class="img6">
+        <image src="../../static/imgs/评分管理.png"></image>
+      </view>
+      <view class="s1">展品管理</view>
+    </view>
+
+    <view class="p1"></view>
+    <view class="p2"></view>
+  </view>
+
+  <!-- 中 -->
+  <view class="f5f5f5"></view>
+
+  <!-- 下 -->
+  <view class="bottom_box">
+    <view class="b1">数据分析</view>
+
+    <!-- 1 -->
+    <view class="bottom_box1">
+      <view class="img7">
+        <image src="../../static/imgs/会员管理.png"></image>
+      </view>
+      <view class="b2">订单金额分析</view>
+    </view>
+
+    <!-- 2 -->
+    <view class="bottom_box2">
+      <view class="img7">
+        <image src="../../static/imgs/订单 (1).png"></image>
+      </view>
+      <view class="b2">订单量分析</view>
+    </view>
+
+    <!-- 3 -->
+    <view class="bottom_box3">
+      <view class="img7">
+        <image src="../../static/imgs/客户 (1).png"></image>
+      </view>
+      <view class="b2">客户行为分析</view>
+    </view>
+
+    <!-- 4 -->
+    <view class="bottom_box4">
+      <view class="img7">
+        <image src="../../static/imgs/数据 (1).png"></image>
+      </view>
+      <view class="b2">商品销售分析</view>
+    </view>
+
+    <!-- 线 -->
+    <view class="x1"></view>
+    <view class="x_box">
+      <view class="x2">壹物壹码提供技术支持</view>
+      <view class="x2">客服热线：020-3700061</view>
+    </view>
+  </view>
+</view>

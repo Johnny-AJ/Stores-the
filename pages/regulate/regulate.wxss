@@ -1,0 +1,66 @@
+/* pages/regulate/regulate.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1362rpx;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+.img {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  position: relative;
+}
+
+.img image {
+  width: 710rpx;
+  height: 180rpx;
+  z-index: -2;
+}
+
+.img .month1 {
+  position: absolute;
+  top: 38rpx;
+  left: 288rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.img .month2 {
+  position: absolute;
+  top: 108rpx;
+  left: 55rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.img .month3 {
+  position: absolute;
+  top: 108rpx;
+  right: 60rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
+}
+
+.bottom {
+  width: 710rpx;
+  height: 230rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+
+.top_img {
+  width: 710rpx;
+  height: 100rpx;
+  border: 1px solid red;
+}

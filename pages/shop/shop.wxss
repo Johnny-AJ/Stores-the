@@ -1,0 +1,71 @@
+/* pages/shop/shop.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1362rpx;
+  background-color: skyblue;
+  overflow: hidden;
+}
+
+.box {
+  width: 710rpx;
+  height: 230rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin-top: 13rpx;
+  margin-left: 20rpx;
+}
+
+.photo_box {
+  width: 710rpx;
+  height: 70rpx;
+  border: 1px solid red;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  display: flex;
+}
+
+.photo_box .imgs {
+  margin-top: 10rpx;
+}
+
+.photo_box .imgs image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 30rpx;
+}
+
+.photo_box .p1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 21rpx;
+  margin-top: 15rpx;
+}
+
+.photo_bottom {
+  width: 598rpx;
+  height: 140rpx;
+  border: 1px solid red;
+  margin-left: 112rpx;
+  display: flex;
+  position: relative;
+  margin-top: 20rpx;
+}
+
+.left-box .l1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-top: 5rpx;
+}
+
+.right-box image {
+  width: 23rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 31rpx;
+}

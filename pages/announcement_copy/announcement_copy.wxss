@@ -1,0 +1,52 @@
+/* pages/announcement_copy/announcement_copy.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+}
+
+.top_box {
+  width: 750rpx;
+  height: 31rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  margin-top: 58rpx;
+}
+
+.top_bo1 {
+  width: 689rpx;
+  height: 378rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin: 53rpx 30rpx 30rpx 41rpx;
+}
+
+.top_bo2 {
+  width: 692rpx;
+  height: 291rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+
+.top_bo3 {
+  margin-top: 133rpx;
+  margin-left: 551rpx;
+  text-align: center;
+}
+
+.top_bo3 .t1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-bottom: 10rpx;
+}

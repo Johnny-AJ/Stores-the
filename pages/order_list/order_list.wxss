@@ -1,0 +1,69 @@
+/* pages/order_list/order_list.wxss */
+
+/* pages/amount/amount.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1206rpx;
+  /* background-color: skyblue; */
+  background: rgba(255, 255, 255, 1);
+  overflow: hidden;
+}
+
+.big_box {
+  position: relative;
+}
+
+.big_box .ding {
+  width: 750rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin: 0 0 40rpx 29rpx;
+}
+
+.photo_box {
+  display: flex;
+  width: 130rpx;
+  height: 50rpx;
+  border: 2rpx solid rgba(120, 139, 241, 1);
+  border-radius: 25rpx;
+  text-align: center;
+  justify-content: center;
+  margin-left: 30rpx;
+}
+
+.photo_box .imgs image {
+  width: 16rpx;
+  height: 11rpx;
+}
+
+.photo_box .jin {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  text-align: center;
+  line-height: 50rpx;
+  margin-right: 10rpx;
+}
+
+.big_box .number {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  position: absolute;
+  top: 78rpx;
+  left: 180rpx;
+}
+
+.big_box .imgss image {
+  width: 638rpx;
+  height: 500rpx;
+  position: absolute;
+  top: 282rpx;
+  left: 56rpx;
+}

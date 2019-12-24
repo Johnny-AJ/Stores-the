@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/regulate/regulate",
+    "pages/grade/grade",
+    "pages/general/general",
+    "pages/shop/shop",
+    "pages/management/management",
+    "pages/membership/membership",
+    "pages/publicrecords/publicrecords",
+    "pages/transaction/transaction",
+    "pages/feedback/feedback",
+    "pages/obssales/obssales",
+    "pages/customer/customer",
+    "pages/order_list/order_list",
+    "pages/amount/amount",
+    "pages/announcement_copy/announcement_copy",
+    "pages/announcement/announcement",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,21 @@
+<!--pages/regulate/regulate.wxml-->
+<!-- <text>pages/regulate/regulate.wxml</text> -->
+
+<view class="bgc">
+
+  <i-tabs current="{{ current }}" color="#79adfc" bindchange="handleChange">
+    <i-tab key="tab1" title="门店"></i-tab>
+    <i-tab key="tab2" title="业务员"></i-tab>
+  </i-tabs>
+
+  <view class="img">
+    <image src="../../static/imgs/矩形 39.png"></image>
+    <view class="month1">月末评分</view>
+    <view class="month2">8月即将结束，赶紧给业务员评分啦！</view>
+    <view class="month3">去评分</view>
+  </view>
+
+  <view class="bottom">
+    <view class="top_img"></view>
+  </view>
+</view>
