@@ -57,10 +57,66 @@
   border-radius: 10rpx;
   margin-top: 10rpx;
   margin-left: 20rpx;
+  position: relative;
 }
 
 .top_img {
   width: 710rpx;
   height: 100rpx;
   border: 1px solid red;
+  display: flex;
+}
+
+.top_img .imgs {
+  margin: 20rpx;
+}
+
+.top_img .imgs image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 30rpx;
+}
+
+.text {
+  margin: 20rpx 0 0 0;
+}
+
+.text .t1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.text .t2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+}
+
+.evaluate {
+  width: 598rpx;
+  height: 69rpx;
+  border: 1px solid red;
+  margin-left: 112rpx;
+  margin-top: 38rpx;
+}
+
+.evaluate .e1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}
+
+.imgs1 {
+  position: absolute;
+  top: 92rpx;
+  right: 31rpx;
+}
+
+.imgs1 image {
+  width: 23rpx;
+  height: 35rpx;
 }

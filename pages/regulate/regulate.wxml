@@ -16,6 +16,23 @@
   </view>
 
   <view class="bottom">
-    <view class="top_img"></view>
+    <view class="top_img">
+      <view class="imgs">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="text">
+        <view class="t1">业务员1</view>
+        <view class="t2">13923823456</view>
+      </view>
+    </view>
+
+    <view class="evaluate">
+      <view class="e1">10月总评价：</view>
+      <view class="e1">2019/09/16</view>
+    </view>
+
+    <view class="imgs1">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
   </view>
 </view>
