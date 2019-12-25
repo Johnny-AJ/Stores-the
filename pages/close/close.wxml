@@ -1,0 +1,33 @@
+<!--pages/close/close.wxml-->
+<!-- <text>pages/close/close.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="box">
+    <view class="nav1">
+      <view class="n1">2019/07/22 12：00：00</view>
+      <view class="n1">用户1</view>
+    </view>
+
+    <view class="nav2">商品交易</view>
+
+    <view class="nav3">
+      <view class="n_left">订单总额：</view>
+      <view class="n_right">
+        <view class="n2">￥123456.00</view>
+
+        <!-- <view class="caption-wrap">
+          <i-collapse name="{{name}}">
+            <i-collapse-item name="name1">
+              <view slot="content">
+                <view>111111</view>
+              </view>
+            </i-collapse-item>
+          </i-collapse>
+        </view> -->
+
+      </view>
+    </view>
+  </view>
+
+</view>

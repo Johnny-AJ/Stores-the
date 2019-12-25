@@ -1,0 +1,83 @@
+<!--pages/financial/financial.wxml-->
+<!-- <text>pages/financial/financial.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="imgs">
+    <image src="../../static/imgs/矩形 30.png"></image>
+  </view>
+
+  <view class="top_box">
+    <view class="top_nav_box">
+      <view class="imgss">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="number">
+        <view class="n1">123456.00</view>
+        <view class="n2">账户余额（元）</view>
+      </view>
+      <view class="ti">提现</view>
+    </view>
+  </view>
+
+  <view class="price_box">
+
+    <view class="box1">
+      <view class="b1">总提成（元）</view>
+      <view class="b1">123456.00</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">待结算金额（元）</view>
+      <view class="b1">123456.00</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">保证金（元）</view>
+      <view class="b1">123456.00</view>
+    </view>
+  </view>
+
+  <view class="ding">
+    <view class="d1">待结算订单</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="ding1">
+    <view class="d1">待结算订单</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="ding1">
+    <view class="d1">收支明细</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="ding1">
+    <view class="d1">提现明细</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="ding1">
+    <view class="d1">提成明细</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="ding1">
+    <view class="d1">保证金明细</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+</view>

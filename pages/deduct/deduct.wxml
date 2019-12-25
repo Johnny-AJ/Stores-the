@@ -1,0 +1,87 @@
+<!--pages/deduct/deduct.wxml-->
+<!-- <text>pages/deduct/deduct.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">会员门店</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">收入：</view>
+      <view class="b2">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收支流水号：</view>
+      <view class="b1"></view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">会员门店</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">收入：</view>
+      <view class="b2">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收支流水号：</view>
+      <view class="b1"></view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">会员门店</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">收入：</view>
+      <view class="b2">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收支流水号：</view>
+      <view class="b1"></view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,63 @@
+<!--pages/touch/touch.wxml-->
+<!-- <text>pages/touch/touch.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="door_box">
+    <view class="img">
+      <image src="../../static/imgs/二维码.png"></image>
+    </view>
+    <view class="right_box">
+      <view class="r1">门店名称：</view>
+      <view class="r2">门店1门店1门店1门店1门店1</view>
+    </view>
+  </view>
+
+  <view class="shangping">
+
+    <view class="photo">
+      <view class="img1">
+        <image src="../../static/imgs/组 17.png"></image>
+      </view>商品列表
+      <view class="img1">
+        <image src="../../static/imgs/组 17 拷贝.png"></image>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="chanel_box">
+
+    <view class="nav_box">
+      <view class="imgs12">
+        <image src=" ../../static/imgs/组 17(1).png "></image>
+      </view>
+      <view class="text_box">
+        <view class="t1">CHANEL香奈儿山 茶花包...</view>
+        <view class="t2">￥850-1200</view>
+      </view>
+    </view>
+
+    <view class="nav_box ">
+      <view class="imgs12">
+        <image src=" ../../static/imgs/组 17(2).png "></image>
+      </view>
+      <view class="text_box">
+        <view class="t1">CHANEL香奈儿炫 亮魅力...</view>
+        <view class="t2">￥320-399</view>
+      </view>
+    </view>
+
+    <view class="nav_box ">
+      <view class="imgs12">
+        <image src=" ../../static/imgs/组 17(3).png "></image>
+      </view>
+      <view class="text_box">
+        <view class="t1">保湿急救网红蓝药 丸面膜...</view>
+        <view class="t2">￥99-158</view>
+      </view>
+    </view>
+
+  </view>
+</view>

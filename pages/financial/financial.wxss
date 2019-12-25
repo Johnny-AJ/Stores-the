@@ -1,0 +1,137 @@
+/* pages/financial/financial.wxss */
+
+.bgc {
+  position: relative;
+}
+
+.top_box {
+  width: 750rpx;
+  height: 330rpx;
+  position: absolute;
+  top: 54rpx;
+  left: 0;
+}
+
+.imgs image {
+  width: 750rpx;
+  height: 330rpx;
+  z-index: -6;
+}
+
+.top_nav_box {
+  width: 750rpx;
+  height: 105rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.top_nav_box .imgss image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 40rpx;
+  margin-left: 34rpx;
+}
+
+.number {
+  width: 250rpx;
+  height: 90rpx;
+  margin-left: 51rpx;
+  margin-top: 20rpx;
+}
+
+.number .n1 {
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #fff;
+}
+
+.number .n2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+}
+
+.ti {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 20rpx;
+}
+
+.price_box {
+  width: 750rpx;
+  height: 90rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 226rpx;
+  left: 0;
+}
+
+.box1 {
+  width: 250rpx;
+  height: 90rpx;
+  /* border: 1px solid red; */
+  text-align: center;
+  line-height: 45rpx;
+}
+
+.box1 .b1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.ding {
+  width: 720rpx;
+  height: 90rpx;
+  background: rgba(255, 255, 255, 1);
+  /* border: 1px solid red; */
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30rpx;
+}
+
+.img image {
+  width: 18rpx;
+  height: 29rpx;
+  margin-right: 30rpx;
+}
+
+.d1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}
+
+.ding1 {
+  width: 720rpx;
+  height: 90rpx;
+  background: rgba(255, 255, 255, 1);
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f5f5f5;
+  margin-left: 30rpx;
+}
+
+.ding1 .d1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}

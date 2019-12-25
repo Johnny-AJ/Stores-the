@@ -1,0 +1,83 @@
+/* pages/income/income.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1362rpx;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+.tabs {
+  width: 750rpx;
+  height: 96rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+
+.tabNav {
+  color: #0094ff;
+}
+
+/* tab */
+
+.nav_box {
+  width: 750rpx;
+  height: 180rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 720rpx;
+  height: 90rpx;
+  margin-left: 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.n1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 30rpx;
+  line-height: 90rpx;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 720rpx;
+  height: 90rpx;
+  margin-left: 30rpx;
+}
+
+.details {
+  width: 750rpx;
+  height: 90rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 90rpx;
+}
+
+.d1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(103, 148, 250, 1);
+}
+
+.img image {
+  width: 18rpx;
+  height: 29rpx;
+  margin: 0 30rpx 0 27rpx;
+}

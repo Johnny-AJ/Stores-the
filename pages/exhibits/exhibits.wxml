@@ -1,0 +1,16 @@
+<!--pages/exhibits/exhibits.wxml-->
+<!-- <text>pages/exhibits/exhibits.wxml</text> -->
+
+<view class="p_box">
+  <view class="imgs">
+    <image src="../../static/imgs/组 17(2).png"></image>
+  </view>
+
+  <view class="a_box">
+    <view class="t1">XXX专柜</view>
+    <view class="t1_box">
+      <view class="p1">保证金</view>
+      <view class="p2">￥2000.00</view>
+    </view>
+  </view>
+</view>

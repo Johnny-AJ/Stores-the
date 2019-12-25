@@ -1,0 +1,98 @@
+<!--pages/subsidiary/subsidiary.wxml-->
+<!-- <text>pages/subsidiary/subsidiary.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="top_box">
+    <view class="img">
+      <image src="../../static/imgs/小樱.jpg"></image>
+    </view>
+    <view class="number">￥1234.00</view>
+  </view>
+
+  <view class="tabs">
+    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":" "}}' bindtap="handtab" data-aa="{{index}}">{{item}}</view>
+  </view>
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">用户1</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入：</view>
+      <view class="b1">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">提成：</view>
+      <view class="b2">1234.00</view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">会员门店</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入：</view>
+      <view class="b1">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">提成：</view>
+      <view class="b2">1234.00</view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="box">
+      <view class="b1">2019/07/22 12：00：00</view>
+      <view class="b1">用户1</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">交易类型：</view>
+      <view class="b1">商品交易</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入：</view>
+      <view class="b1">1234.00</view>
+    </view>
+
+    <view class="box">
+      <view class="b1">收入余额：</view>
+      <view class="b1">￥123456.00</view>
+    </view>
+
+    <view class="box1">
+      <view class="b1">提成：</view>
+      <view class="b2">1234.00</view>
+    </view>
+  </view>
+</view>

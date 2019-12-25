@@ -1,0 +1,75 @@
+<!--pages/underline/underline.wxml-->
+<!-- <text>pages/underline/underline.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="color"></view>
+
+  <view class="t1">
+    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":""}}' data-aa="{{index}}" bindtap="changTab">{{item}}</view>
+  </view>
+
+  <view class="photo_box">
+
+    <view class="photo_left">
+
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+
+      <view class="photo_bottom">
+        <view class="p1">Dr.Jart 保湿急救网红蓝 药丸面膜</view>
+
+        <view class="p_box">
+          <view class="b1">待领20件</view>
+          <view class="b2">申领</view>
+        </view>
+
+        <view class="b_box">
+          <view class="k1">前往购买</view>
+          <view class="imgs">
+            <image src="../../static/imgs/组 18.png"></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+    <view class="photo_left">
+
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+
+      <view class="photo_bottom">
+        <view class="p1">Dr.Jart 保湿急救网红蓝 药丸面膜</view>
+
+        <view class="p_box">
+          <view class="b1">待领20件</view>
+          <view class="b2">申领</view>
+        </view>
+
+        <view class="b_box">
+          <view class="k1">前往购买</view>
+          <view class="imgs">
+            <image src="../../static/imgs/组 18.png"></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+  </view>
+
+
+
+  <view class="imgsss">
+    <image src="../../static/imgs/托盘.png"></image>
+  </view>
+
+  <view class="imgss">
+    <image src="../../static/imgs/点击礼物.png" animation="{{animation}}"></image>
+  </view>
+
+
+</view>

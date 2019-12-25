@@ -1,0 +1,122 @@
+/* pages/touch/touch.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
+  overflow: hidden;
+}
+
+.door_box {
+  width: 750rpx;
+  height: 200rpx;
+  background: rgba(255, 255, 255, 1);
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+}
+
+.img {
+  margin: 27rpx 47rpx 27rpx 30rpx;
+}
+
+.img image {
+  width: 146rpx;
+  height: 146rpx;
+  /* border: 1px solid red; */
+}
+
+.right_box {
+  width: 604rpx;
+  height: 80rpx;
+  /* border: 1px solid red; */
+  margin-top: 40rpx;
+}
+
+.right_box .r1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+}
+
+.right_box .r2 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-top: 20rpx;
+}
+
+.shangping {
+  width: 750rpx;
+  height: 104rpx;
+  /* border: 1px solid red; */
+}
+
+.photo {
+  display: flex;
+  margin-top: 46rpx;
+  margin-left: 257rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.photo .img1 {
+  margin-left: 18rpx;
+  margin-right: 18rpx;
+}
+
+.photo .img1 image {
+  width: 39rpx;
+  height: 18rpx;
+}
+
+/* chanel_box */
+
+.chanel_box {
+  width: 750rpx;
+  height: 329rpx;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.nav_box {
+  width: 220rpx;
+  height: 329rpx;
+  /* border: 1px solid red; */
+  margin-left: 20rpx;
+}
+
+.nav_box .imgs12 image {
+  width: 220rpx;
+  height: 210rpx;
+  vertical-align: top;
+}
+
+.text_box {
+  width: 220rpx;
+  height: 119rpx;
+  background-color: #fff;
+}
+
+.text_box .t1 {
+  width: 188rpx;
+  height: 51rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin: 14rpx 0 0 16rpx;
+}
+
+.text_box .t2 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(254, 49, 49, 1);
+  margin-left: 14rpx;
+  margin-top: 21rpx;
+}

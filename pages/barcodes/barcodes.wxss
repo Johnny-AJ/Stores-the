@@ -1,0 +1,129 @@
+/* pages/barcodes/barcodes.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+.nav_box {
+  width: 710rpx;
+  height: 1043rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 20rpx;
+  border-radius: 30rpx;
+  position: relative;
+}
+
+.img_box {
+  /* border: 1px solid red; */
+  width: 710rpx;
+  height: 300rpx;
+  text-align: center;
+}
+
+.img_box image {
+  width: 300rpx;
+  height: 300rpx;
+  margin-top: 40rpx;
+}
+
+.number {
+  display: flex;
+  margin-left: 20rpx;
+  margin-top: 120rpx;
+}
+
+.number .n1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number .n2 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number1 {
+  display: flex;
+  margin-left: 20rpx;
+  margin-top: 27rpx;
+}
+
+.number1 .n4 {
+  width: 150rpx;
+  height: 68rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number1 .n3 {
+  width: 513rpx;
+  height: 68rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number2 {
+  display: flex;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+
+.number2 .n1 {
+  width: 150rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number2 .n2 {
+  width: 323rpx;
+  height: 28rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+
+.number2 .imgs15 image {
+  width: 184rpx;
+  height: 185rpx;
+}
+
+.box_css {
+  width: 0px;
+  height: 0px;
+  border-top: 130rpx solid #5194fb;
+  border-left: 130rpx solid transparent;
+  border-bottom: 130rpx solid transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.k1 {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  display: block;
+  position: absolute;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  top: 20rpx;
+  right: 10rpx;
+}

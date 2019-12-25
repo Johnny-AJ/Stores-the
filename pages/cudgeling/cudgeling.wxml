@@ -1,0 +1,23 @@
+<!--pages/cudgeling/cudgeling.wxml-->
+<!-- <text>pages/cudgeling/cudgeling.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top_box">
+    <view class="top">2019-09-27 12:00</view>
+
+    <view class="photo_box">
+      <view class="img">
+        <image src="../../static/imgs/imgs1.png"></image>
+      </view>
+      <view class="box_box">
+        <view class="t1">XXXXX展柜</view>
+        <view class="t_box">
+          <view class="b1">保证金</view>
+          <view class="b2">￥2000.00元</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

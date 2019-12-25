@@ -1,0 +1,31 @@
+<!--pages/deposit/deposit.wxml-->
+<!-- <text>pages/deposit/deposit.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="box">
+    <view class="nab">
+      <view class="n1">账户余额</view>
+      <view class="n2">123456.00</view>
+    </view>
+
+    <view class="price">提现金额</view>
+
+    <view class="nax">
+      <view class="logo">￥</view>
+      <input type="number"></input>
+    </view>
+
+    <view class="nac">
+      <view class="c1">提现到微信钱包, </view>
+      <view class="c2">全部提现</view>
+    </view>
+
+    <view class="btn">提现</view>
+
+    <view class="admin">管理员在1-3个工作日内审核完成</view>
+  </view>
+
+  <view class="ti">提现记录</view>
+</view>

@@ -1,0 +1,69 @@
+<!--pages/withdrawal/withdrawal.wxml-->
+<!-- <text>pages/withdrawal/withdrawal.wxml</text> -->
+
+
+<view class="bgc">
+
+  <!-- 背景色 -->
+  <view class="nav">
+    <view class="n1">2019年7月</view>
+    <view class="n2">支出 ￥0.00 收入 ￥123456.00</view>
+  </view>
+  <!-- 白色 -->
+  <view class="nac">
+    <view class="n_left">
+      <view class="a_box">
+        <view class="a1">账户提现-到微信零钱</view>
+        <view class="a1">7月2日 18:06</view>
+      </view>
+    </view>
+    <view class="n_right">123456.00</view>
+  </view>
+
+  <view class="nav">
+    <view class="n1">2019年7月</view>
+    <view class="n2">支出 ￥0.00 收入 ￥123456.00</view>
+  </view>
+
+  <view class="nac">
+    <view class="n_left">
+      <view class="a_box">
+        <view class="a1">账户提现-到微信零钱</view>
+        <view class="a1">7月2日 18:06</view>
+      </view>
+    </view>
+    <view class="n_right">123456.00</view>
+  </view>
+  <view class="nac">
+    <view class="n_left">
+      <view class="a_box">
+        <view class="a1">提现失败-微信未实名认证</view>
+        <view class="a1">7月2日 18:06</view>
+      </view>
+    </view>
+    <view class="n_right">123456.00</view>
+  </view>
+  <view class="nac">
+    <view class="n_left">
+      <view class="a_box">
+        <view class="a1">账户提现-到微信零钱</view>
+        <view class="a1">7月2日 18:06</view>
+      </view>
+    </view>
+    <view class="n_right">123456.00</view>
+  </view>
+
+  <view class="nav">
+    <view class="n1">2019年7月</view>
+    <view class="n2">支出 ￥0.00 收入 ￥123456.00</view>
+  </view>
+  <view class="nac">
+    <view class="n_left">
+      <view class="a_box">
+        <view class="a1">账户提现-到微信零钱</view>
+        <view class="a1">7月2日 18:06</view>
+      </view>
+    </view>
+    <view class="n_right">123456.00</view>
+  </view>
+</view>

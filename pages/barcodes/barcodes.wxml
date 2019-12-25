@@ -1,0 +1,52 @@
+<!--pages/barcodes/barcodes.wxml-->
+<!-- <text>pages/barcodes/barcodes.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="nav_box">
+
+    <view class="img_box">
+      <image src="../../static/imgs/组 17(1).png"></image>
+    </view>
+
+    <view class="number">
+      <view class="n1">商品编号：</view>
+      <view class="n2">01</view>
+    </view>
+
+    <view class="number1">
+      <view class="n4">商品名称：</view>
+      <view class="n3">
+        Dr.Jart 保湿急救网红蓝药丸面膜宛若 新生保湿急救蓝药丸面膜
+      </view>
+    </view>
+
+    <view class="number2">
+      <view class="n1">类型：</view>
+      <view class="n2">蓝药丸面膜/银药丸面膜</view>
+    </view>
+
+    <view class="number2">
+      <view class="n1">规格：</view>
+      <view class="n2">5片/盒</view>
+    </view>
+
+    <view class="number2">
+      <view class="n1">库存：</view>
+      <view class="n2">100</view>
+    </view>
+
+    <view class="number2">
+      <view class="n1">二维码：</view>
+      <view class="imgs15">
+        <image src="../../static/imgs/二维码.png"></image>
+      </view>
+    </view>
+
+    <view class="box_css"></view>
+
+    <view class="k1">详情</view>
+
+  </view>
+
+</view>

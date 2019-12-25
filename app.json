@@ -1,5 +1,19 @@
 {
   "pages": [
+    "pages/login/login",
+    "pages/deduct/deduct",
+    "pages/income/income",
+    "pages/subsidiary/subsidiary",
+    "pages/withdrawal/withdrawal",
+    "pages/deposit/deposit",
+    "pages/close/close",
+    "pages/cudgeling/cudgeling",
+    "pages/financial/financial",
+    "pages/underline_copy/underline_copy",
+    "pages/underline/underline",
+    "pages/exhibits/exhibits",
+    "pages/barcodes/barcodes",
+    "pages/touch/touch",
     "pages/regulate/regulate",
     "pages/grade/grade",
     "pages/general/general",
@@ -16,7 +30,6 @@
     "pages/announcement_copy/announcement_copy",
     "pages/announcement/announcement",
     "pages/home/home",
-    "pages/login/login",
     "pages/index/index"
   ],
   "window": {

@@ -1,0 +1,49 @@
+/* pages/exhibits/exhibits.wxss */
+
+.p_box {
+  width: 330rpx;
+  height: 420rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  border: 1px solid red;
+}
+
+.p_box .imgs image {
+  width: 330rpx;
+  height: 300rpx;
+}
+
+.a_box {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.t1 {
+  width: 124rpx;
+  height: 29rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.t1_box {
+  display: flex;
+  align-items: center;
+  margin-top: 17rpx;
+}
+
+.t1_box .p1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 108rpx;
+}
+
+.t1_box .p2 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(240, 43, 80, 1);
+}
