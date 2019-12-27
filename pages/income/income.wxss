@@ -21,6 +21,11 @@
   color: #0094ff;
 }
 
+.text {
+  border-bottom: 4rpx solid #5194fb;
+  padding-bottom: 10rpx;
+}
+
 /* tab */
 
 .nav_box {

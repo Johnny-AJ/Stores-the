@@ -4,30 +4,32 @@
 <view class="bgc">
 
   <view class="box">
-    <view class="nav1">
-      <view class="n1">2019/07/22 12：00：00</view>
-      <view class="n1">用户1</view>
+    <view class="nav_a">
+      <view class="t1">2019/07/22 12：00：00</view>
+      <view class="t1">用户1</view>
     </view>
-
-    <view class="nav2">商品交易</view>
-
-    <view class="nav3">
-      <view class="n_left">订单总额：</view>
-      <view class="n_right">
-        <view class="n2">￥123456.00</view>
-
-        <!-- <view class="caption-wrap">
-          <i-collapse name="{{name}}">
-            <i-collapse-item name="name1">
-              <view slot="content">
-                <view>111111</view>
-              </view>
-            </i-collapse-item>
-          </i-collapse>
-        </view> -->
-
+    <view class="t3">商品交易</view>
+    <view class="t4">订单总额：</view>
+    <view class="a">
+      <view class="b">￥123456.00</view>
+      <image class="img" bindtap="toggle" src="{{isshow?'../../static/imgs//矩形 16 拷贝 2.png' :'../../static/imgs/矩形 3.png'}}"></image>
+    </view>
+    <view class="{{isshow?'on':'c'}}">
+      <view class="e">
+        <view class="t_box">
+          <view class="t5">面膜</view>
+          <view class="t5">￥79.00*2</view>
+        </view>
+        <view class="t_box">
+          <view class="t5">防晒</view>
+          <view class="t5">￥139.00*1</view>
+        </view>
+        <view class="t_box">
+          <view class="t5">截止结算时间：</view>
+          <view class="t5">2019/09/02 12:00:00</view>
+        </view>
+        <view class="t2">已完成</view>
       </view>
     </view>
   </view>
-
 </view>

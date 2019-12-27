@@ -4,7 +4,8 @@
   width: 750rpx;
   height: 1362rpx;
   overflow: hidden;
-  background-color: skyblue;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
 }
 
 .top_box {
@@ -20,19 +21,19 @@
   justify-content: space-between;
   width: 750rpx;
   height: 28rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .left_nav {
   width: 203rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 30rpx;
   margin-left: 30rpx;
 }
 
 .right_nav {
   width: 203rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 30rpx;
   margin-right: 30rpx;
 }
@@ -54,7 +55,7 @@
 .nav_box {
   width: 750rpx;
   height: 80rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 50rpx;
   display: flex;
 }
@@ -144,7 +145,7 @@
 .const {
   width: 690rpx;
   height: 40rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 29rpx;
   margin-top: 20rpx;
   display: flex;

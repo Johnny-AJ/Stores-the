@@ -4,17 +4,17 @@
 <view class="bgc">
 
   <view class="top">
-    <i-notice-bar icon="systemprompt" speed="1000" loop>
-      关于O2O商品上架修改问题;关于O2O商品上架修改问题;
+    <i-notice-bar class="aa" icon="systemprompt_fill" background-color="#5496fb" color="#f76a24" speed="3535" loop>
+      关于O2O商品上架修改问题;
     </i-notice-bar>
   </view>
 
   <!-- 金额 -->
   <view class="top_box">
-    <view class="imgs">
+    <!-- <view class="imgs">
       <image src="../../static/imgs/背景上.png"></image>
-    </view>
-
+    </view> -->
+    <view class="color_b"></view>
     <view class="pricr1">
       <view class="p1">83456.05</view>
       <view class="p2">本月门店收益</view>
@@ -39,7 +39,7 @@
   <!-- 按钮 -->
   <view class="nav_box">
     <!-- 1 -->
-    <view class="small_box">
+    <view class="small_box" bindtap="handurl" data-url="/pages/underline_copy/underline_copy">
       <view class="img2">
         <image src="../../static/imgs/会员管理.png"></image>
       </view>
@@ -47,43 +47,43 @@
     </view>
 
     <!-- 2 -->
-    <view class="small_box1">
+    <view class="small_box1" bindtap="handurl" data-url="/pages/financial/financial">
       <view class="img3">
         <image src="../../static/imgs/财务管理.png"></image>
       </view>
-      <view class="s1">展品管理</view>
+      <view class="s1">财务管理</view>
     </view>
 
     <!-- 3 -->
-    <view class="small_box2">
+    <view class="small_box2" bindtap="handurl" data-url="/pages/transaction/transaction">
       <view class="img4">
         <image src="../../static/imgs/会员管理.png"></image>
       </view>
-      <view class="s1">展品管理</view>
+      <view class="s1">会员管理</view>
     </view>
 
     <!-- 4 -->
-    <view class="small_box3">
+    <view class="small_box3" bindtap="handurl" data-url="/pages/touch/touch">
       <view class="img5">
         <image src="../../static/imgs/扫码管理.png"></image>
       </view>
-      <view class="s1">展品管理</view>
+      <view class="s1">扫码管理</view>
     </view>
 
     <!-- 5 -->
-    <view class="small_box4">
+    <view class="small_box4" bindtap="handurl" data-url="/pages/feedback/feedback">
       <view class="img5">
-        <image src="../../static/imgs/扫码管理.png"></image>
+        <image src="../../static/imgs/icon-意见反馈.png"></image>
       </view>
-      <view class="s1">展品管理</view>
+      <view class="s1">意见反馈</view>
     </view>
 
     <!-- 6 -->
-    <view class="small_box5">
+    <view class="small_box5" bindtap="handurl" data-url="/pages/management/management">
       <view class="img6">
         <image src="../../static/imgs/评分管理.png"></image>
       </view>
-      <view class="s1">展品管理</view>
+      <view class="s1">评分管理</view>
     </view>
 
     <view class="p1"></view>
@@ -98,15 +98,15 @@
     <view class="b1">数据分析</view>
 
     <!-- 1 -->
-    <view class="bottom_box1">
+    <view class="bottom_box1" bindtap="handurl" data-url="/pages/amount/amount">
       <view class="img7">
-        <image src="../../static/imgs/会员管理.png"></image>
+        <image src="../../static/imgs/财务分析-01.png"></image>
       </view>
       <view class="b2">订单金额分析</view>
     </view>
 
     <!-- 2 -->
-    <view class="bottom_box2">
+    <view class="bottom_box2" bindtap="handurl" data-url="/pages/order_list/order_list">
       <view class="img7">
         <image src="../../static/imgs/订单 (1).png"></image>
       </view>
@@ -114,7 +114,7 @@
     </view>
 
     <!-- 3 -->
-    <view class="bottom_box3">
+    <view class="bottom_box3" bindtap="handurl" data-url="/pages/customer/customer">
       <view class="img7">
         <image src="../../static/imgs/客户 (1).png"></image>
       </view>
@@ -122,7 +122,7 @@
     </view>
 
     <!-- 4 -->
-    <view class="bottom_box4">
+    <view class="bottom_box4" bindtap="handurl" data-url="/pages/obssales/obssales">
       <view class="img7">
         <image src="../../static/imgs/数据 (1).png"></image>
       </view>

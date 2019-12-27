@@ -13,7 +13,7 @@
 .top_box {
   width: 750rpx;
   height: 70rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 30rpx;
   margin-left: 30rpx;
   display: flex;
@@ -50,7 +50,7 @@
 .commodity {
   width: 690rpx;
   height: 180rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 20rpx;
   margin-left: 30rpx;
   display: flex;
@@ -59,13 +59,13 @@
 .commodity_left {
   width: 180rpx;
   height: 180rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .commodity_right {
   width: 510rpx;
   height: 180rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 18rpx;
 }
 
@@ -86,7 +86,7 @@
 .commodity_right .box {
   width: 510rpx;
   height: 26rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -112,7 +112,7 @@
 .evaluate {
   width: 690rpx;
   height: 67rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 80rpx;
   margin-left: 30rpx;
   display: flex;
@@ -140,7 +140,7 @@
 .remark {
   width: 690rpx;
   height: 110rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 20rpx;
   margin-left: 30rpx;
   display: flex;
@@ -165,7 +165,7 @@
 .time {
   width: 690rpx;
   height: 26rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 40rpx;
   margin-left: 30rpx;
   display: flex;

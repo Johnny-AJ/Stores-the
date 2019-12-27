@@ -18,5 +18,15 @@
     <view class="imgss">
       <image src="../../static/imgs/图表.png"></image>
     </view>
+
+    <view class="const">
+      <view class="g1">09.09</view>
+      <view class="g1">09.10</view>
+      <view class="g1">09.11</view>
+      <view class="g1">09.12</view>
+      <view class="g1">09.13</view>
+      <view class="g1">09.14</view>
+      <view class="g1">09.15</view>
+    </view>
   </view>
 </view>

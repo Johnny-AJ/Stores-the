@@ -3,8 +3,8 @@
 .bgc {
   width: 750rpx;
   height: 996rpx;
-  /* background: rgba(255, 255, 255, 1); */
-  background-color: skyblue;
+  background: rgba(255, 255, 255, 1);
+  /* background-color: skyblue; */
   overflow: hidden;
 }
 
@@ -81,7 +81,7 @@
 .kong .box1 {
   width: 250rpx;
   height: 130rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -96,7 +96,7 @@
 .kong .box2 {
   width: 250rpx;
   height: 130rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 
@@ -124,7 +124,7 @@
 .number {
   width: 683rpx;
   height: 16rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 15rpx;
   margin-left: 34rpx;
   display: flex;

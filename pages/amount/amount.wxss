@@ -65,3 +65,22 @@
   top: 282rpx;
   left: 56rpx;
 }
+
+.const {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 683rpx;
+  height: 16rpx;
+  position: absolute;
+  top: 797rpx;
+  left: 30rpx;
+}
+
+.g1 {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 50rpx;
+}

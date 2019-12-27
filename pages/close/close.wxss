@@ -5,66 +5,122 @@
   height: 1362rpx;
   overflow: hidden;
   background-color: #f5f5f5;
-  /* background-color: skyblue; */
   padding-top: 20rpx;
 }
 
 .box {
-  width: 750prx;
-  height: 180rpx;
-  background: rgba(255, 255, 255, 1);
-  border-radius: 10rpx;
-  padding-top: 28rpx;
-}
-
-.nav1 {
-  width: 700rpx;
-  height: 26rpx;
+  width: 750rpx;
   /* border: 1px solid red; */
+  background-color: #fff;
+  /* background-color: blueviolet; */
+  padding: 15rpx;
+}
+
+.img {
+  width: 25rpx;
+  height: 15rpx;
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 150rpx;
+  right: 30rpx;
+}
+
+.b {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 20rpx;
+}
+
+.c {
+  width: 690px;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20rpx;
+}
+
+.box .on {
+  height: 200rpx;
+  width: 100%;
+}
+
+.e {
+  width: 690rpx;
+  height: 220rpx;
+  background: rgba(249, 249, 249, 1);
+  /* border: 1px solid red; */
+  overflow: hidden;
+  position: absolute;
+  top: 194rpx;
+  left: 33rpx;
+}
+
+.t_box {
+  width: 690rpx;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 28rpx;
+  margin-top: 15rpx;
 }
 
-.nav1 .n1 {
+.t1 {
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
   color: rgba(34, 34, 34, 1);
+  margin-right: 10rpx;
 }
 
-.nav2 {
-  width: 700rpx;
-  height: 26rpx;
+.t2 {
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
-  color: rgba(34, 34, 34, 1);
-  margin-left: 28rpx;
-  margin-top: 24rpx;
-}
-
-.nav3 {
-  width: 700rpx;
-  height: 26rpx;
+  color: rgba(103, 148, 250, 1);
   display: flex;
-  margin-top: 24rpx;
+  justify-content: flex-end;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+
+.nav_a {
+  width: 690rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-left: 30rpx;
-  align-items: center;
-  justify-content: space-between;
+  margin-top: 20rpx;
 }
 
-.n_left {
+.t3 {
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
   color: rgba(34, 34, 34, 1);
+  margin-top: 10rpx;
+  margin-left: 30rpx;
 }
 
-.n_right .n2 {
+.t4 {
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
   color: rgba(34, 34, 34, 1);
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  margin-bottom: 26rpx;
+}
+
+.t5 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin: 0 10rpx;
 }
