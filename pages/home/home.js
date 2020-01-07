@@ -13,13 +13,13 @@ Page({
     })
   },
   toggle(e) { //图片点击事件
-    console.log(e)
+    // console.log(e)
     // this.isshow =!this.isshow; 
     this.setData({
       isshow: !this.data.isshow
     })
     // this.$apply();
-    console.log(this.data.isshow)
+    // console.log(this.data.isshow)
   },
   /**
    * 生命周期函数--监听页面加载

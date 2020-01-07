@@ -17,7 +17,7 @@
         <view class="n1">123456.00</view>
         <view class="n2">账户余额（元）</view>
       </view>
-      <view class="ti">提现</view>
+      <view class="ti" bindtap="handleDeposit" data-url="/pages/deposit/deposit">提现</view>
     </view>
   </view>
 
@@ -39,45 +39,45 @@
     </view>
   </view>
 
-  <view class="ding">
+  <view class="ding" bindtap="handurl" data-url="/pages/close/close">
     <view class="d1">待结算订单</view>
     <view class="img">
       <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
     </view>
   </view>
 
-  <view class="ding1">
-    <view class="d1">待结算订单</view>
+  <view class="ding1" bindtap="handurl" data-url="/pages/close/close">
+    <view class="d1">已结算订单</view>
     <view class="img">
-      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>
     </view>
   </view>
 
-  <view class="ding1">
+  <view class="ding1" bindtap="handurl" data-url="/pages/income/income">
     <view class="d1">收支明细</view>
     <view class="img">
-      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>
     </view>
   </view>
 
-  <view class="ding1">
+  <view class="ding1" bindtap="handurl" data-url="/pages/Withdrawal/Withdrawal">
     <view class="d1">提现明细</view>
     <view class="img">
-      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>
     </view>
   </view>
 
-  <view class="ding1">
+  <view class="ding1" bindtap="handurl" data-url="/pages/subsidiary/subsidiary">
     <view class="d1">提成明细</view>
-    <view class="img">
-      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    <view class="img ">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>
     </view>
   </view>
 
-  <view class="ding1">
+  <view class="ding1" bindtap="handurl" data-url="/pages/cudgeling/cudgeling">
     <view class="d1">保证金明细</view>
-    <view class="img">
-      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    <view class="img ">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>
     </view>
   </view>
 </view>

@@ -12,6 +12,12 @@ Page({
       url: e.currentTarget.dataset.url
     })
   },
+  // 提现
+  handleDeposit(e) {
+    wx.navigateTo({
+      url: e.currentTarget.dataset.url
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

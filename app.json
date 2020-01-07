@@ -1,15 +1,15 @@
 {
   "pages": [
     "pages/login/login",
+    "pages/financial/financial",
     "pages/home/home",
-    "pages/close/close",
     "pages/Branch_Information/Branch_Information",
+    "pages/close/close",
     "pages/underline/underline",
     "pages/audit/audit",
     "pages/forget/forget",
     "pages/underline_copy/underline_copy",
     "pages/exhibits/exhibits",
-    "pages/financial/financial",
     "pages/cudgeling/cudgeling",
     "pages/feedback/feedback",
     "pages/no/no",

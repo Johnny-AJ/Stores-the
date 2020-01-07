@@ -34,7 +34,7 @@ input {
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
-  color: rgba(204, 204, 204, 1);
+ 
 }
 
 .bottom_box {
@@ -92,7 +92,7 @@ input {
   width: 150rpx;
   height: 150rpx;
   margin-right: 30rpx;
-  border: 1px solid red;
+
 }
 
 .btn {
@@ -128,7 +128,7 @@ image {
   height: 150rpx;
   display: flex;
   align-items: center;
-  border: 1px solid red;
+
   flex-wrap: wrap;
   margin: 20rpx;
 }
@@ -149,7 +149,7 @@ image {
 }
 
 textarea {
-  border: 1px solid red;
+  
   background-color: #f5f5f5;
   margin: 20rpx;
   font-size: 30rpx;
@@ -215,4 +215,55 @@ input {
 .p30 {
   position: relative;
   margin-left: 30rpx;
+}
+
+
+.imgs{
+ width: 750rpx;
+  display: flex;
+  position: relative;
+  padding-bottom: 50rpx;
+  flex-wrap: wrap;
+}
+.imgs image{
+  width: 150rpx;
+  height: 150rpx;
+
+}
+
+.imgs .anonymous{
+  width: 100rpx;
+  height: 30rpx;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 15rpx;
+
+}
+.upAdd{
+  margin: 30rpx 0 0 30rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.uploader-img{
+    display: flex;
+}
+.uploader-list {
+  width: 150rpx;
+  height: 150rpx;
+  position: relative;
+  margin: 30rpx 0 0 30rpx;
+
+
+}
+ .uploader-list .delete{
+  position: absolute;
+  right: -15rpx;
+  top: -15rpx;
+  width: 30rpx;
+  height: 30rpx;
+  z-index: 3;
 }
