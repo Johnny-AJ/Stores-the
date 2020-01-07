@@ -11,9 +11,7 @@
 
   <!-- 金额 -->
   <view class="top_box">
-    <!-- <view class="imgs">
-      <image src="../../static/imgs/背景上.png"></image>
-    </view> -->
+
     <view class="color_b"></view>
     <view class="pricr1">
       <view class="p1">83456.05</view>
@@ -31,9 +29,34 @@
     </view>
 
     <view class="imgs1">
-      <image src="../../static/imgs/组 4.png"></image>
+      <image class="img" bindtap="toggle" src="{{isshow?'../../static/imgs/组 4.png' :'../../static/imgs/组 4.png'}}"></image>
     </view>
+
     <view class="xian"></view>
+
+    <view class="b_boxx" class="{{isshow?'on':'c'}}">
+
+      <view class="imges">
+        <image src="../../static/imgs/组 5 (1).png"></image>
+      </view>
+
+      <view class="ttop">
+        <view class="immgs">
+          <image src="../../static/imgs/扫码.png"></image>
+        </view>
+        <view class="y1">扫一扫</view>
+      </view>
+
+
+      <view class="ttop1">
+        <view class="immgs1">
+          <image src="../../static/imgs/二维码 拷贝.png"></image>
+        </view>
+        <view class="y1">门店码</view>
+      </view>
+
+    </view>
+
   </view>
 
   <!-- 按钮 -->

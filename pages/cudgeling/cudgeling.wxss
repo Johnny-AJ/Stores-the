@@ -4,7 +4,8 @@
   width: 750rpx;
   height: 1334rpx;
   overflow: hidden;
-  background-color: skyblue;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
 }
 
 .top_box {
@@ -29,7 +30,7 @@
 .photo_box {
   width: 690rpx;
   height: 189rpx;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-left: 30rpx;
   margin-top: 20rpx;
   display: flex;
@@ -66,7 +67,7 @@
 .t_box {
   display: flex;
   align-items: center;
-  margin-top: 78rpx;
+  margin-top: 72rpx;
 }
 
 .box_box {

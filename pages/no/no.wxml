@@ -1,0 +1,20 @@
+<!--pages/no/no.wxml-->
+<!-- <text>pages/no/no.wxml</text> -->
+
+<!--pages/audit/audit.wxml-->
+<!-- <text>pages/audit/audit.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="img">
+    <image src="../../static/imgs/组 14.png"></image>
+  </view>
+
+  <view class="nav">
+    <view class="b1">审核不通过！</view>
+    <view class="b2">不通过原因：资质认证不清晰。</view>
+  </view>
+
+  <view class="zhuce">去注册</view>
+
+</view>

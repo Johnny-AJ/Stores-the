@@ -9,7 +9,7 @@ Page({
   },
   toggle(e) { //图片点击事件
     console.log(e)
-    // this.isshow =!this.isshow;
+    // this.isshow =!this.isshow; 
     this.setData({
       isshow: !this.data.isshow
     })

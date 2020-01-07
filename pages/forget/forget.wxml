@@ -1,0 +1,16 @@
+<!--pages/forget/forget.wxml-->
+<!-- <text>pages/forget/forget.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="box">
+    <view class="b1">请输入店铺名称</view>
+  </view>
+
+  <view class="box1">
+    <input placeholder="请输入店铺名称"></input>
+  </view>
+
+  <view class="xia">下一步</view>
+
+</view>

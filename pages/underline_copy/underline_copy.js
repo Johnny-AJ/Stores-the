@@ -5,18 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-    title: ["展品报修", "体验装申领", "专柜申请"],
+    titleList: [{
+      title: "展品报修",
+      id: 0
+    }, {
+      title: "体验装申领",
+      id: 1
+    }, {
+      title: "专柜申请",
+      id: 2
+    }],
     currentIndex: 0,
     texts: "已输入0/300",
     min: 300, //最少字数
     max: 520, //最多字数
     currentWordNumber: 0
   },
-  changTab(e) {
-    // console.log(e)
-    this.setData({
-      currentIndex: e.currentTarget.dataset.aa
-    })
+  changTab: function(e) {
+    console.log(e)
+    let that = this
+    let index = e.currentTarget.dataset.index
+    console.log(index)
+    if (index == 0) {
+      that.setData({
+        currentIndex: 0
+      })
+    } else if (index == 1) {
+      that.setData({
+        currentIndex: 1
+      })
+    } else {
+      that.setData({
+        currentIndex: 2
+      })
+    }
   },
   //字数限制  
   inputs: function(e) {
@@ -66,7 +88,30 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
-
+    // 1: 创建动画实例animation:
+    var animation = wx.createAnimation({
+      duration: 500,
+      timingFunction: 'ease',
+    })
+    this.animation = animation
+    var next = true;
+    //连续动画关键步骤
+    setInterval(function() {
+      //2: 调用动画实例方法来描述动画
+      if (next) {
+        animation.translateX(4).step();
+        animation.rotate(19).step()
+        next = !next;
+      } else {
+        animation.translateX(-4).step();
+        animation.rotate(-19).step()
+        next = !next;
+      }
+      //3: 将动画export导出，把动画数据传递组件animation的属性 
+      this.setData({
+        animation: animation.export()
+      })
+    }.bind(this), 300)
   },
 
   /**

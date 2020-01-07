@@ -7,72 +7,167 @@
   <view class="color"></view>
 
   <view class="t1">
-    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":""}}' data-aa="{{index}}" bindtap="changTab">{{item}}</view>
+    <view wx:for="{{titleList}}" wx:key="*this" class='{{currentIndex==index?"tabTrue":""}}' data-aa="{{index}}" bindtap="changTab" data-index='{{index}}'>{{item.title}}</view>
   </view>
 
-  <view class="number">
-    <view class="z1">展品编号</view>
-    <view class="zoom_box">
-      <input placeholder="填写或扫一扫获取展品信息"></input>
-    </view>
-    <view class="img">
-      <image src="../../static/imgs/扫码.png"></image>
-    </view>
-  </view>
-
-  <view class="radios">
-    <view class="s1">损坏类型:</view>
-    <view class="song" bindtap="handradio">
-      <radio></radio>
-      <view class="s1">老旧</view>
-    </view>
-
-    <view class="song" bindtap="handradio">
-      <radio></radio>
-      <view class="s1">人为损坏</view>
-    </view>
-
-    <view class="song" bindtap="handradio">
-      <radio></radio>
-      <view class="s1">其他</view>
-    </view>
-  </view>
-
-  <!-- 富文本 -->
-  <view class="conts">
-    <textarea class="areas" placeholder='空空如也，快点评论吧' minlength="{{min}}" maxlength="{{max}}" bindinput="inputs">
-      <!-- <text class="currentWordNumber">{{currentWordNumber}}/{{max}}</text> -->
-      <text class="hint">{{texts}}{{num}}{{textss}}</text>
-    </textarea>
-  </view>
-
-  <view class="img_box">
-    <view class="imgs">
-      <image src="../../static/imgs/组 6.png"></image>
-    </view>
-
-    <view class="imgs">
-      <image src="../../static/imgs/组 17(1).png"></image>
-      <view class="imgs1">
-        <image src="../../static/imgs/组 5.png"></image>
+  <view wx:if="{{currentIndex == 0}}">
+    <view class="number">
+      <view class="z1">展品编号</view>
+      <view class="zoom_box">
+        <input placeholder="填写或扫一扫获取展品信息"></input>
+      </view>
+      <view class="img">
+        <image src="../../static/imgs/扫码.png"></image>
       </view>
     </view>
 
-    <view class="imgs">
-      <image src="../../static/imgs/组 17(2).png"></image>
-      <view class="imgs1">
-        <image src="../../static/imgs/组 5.png"></image>
+    <view class="radios">
+      <view class="s1">损坏类型:</view>
+      <view class="song" bindtap="handradio">
+        <radio></radio>
+        <view class="s1">老旧</view>
+      </view>
+
+      <view class="song" bindtap="handradio">
+        <radio></radio>
+        <view class="s1">人为损坏</view>
+      </view>
+
+      <view class="song" bindtap="handradio">
+        <radio></radio>
+        <view class="s1">其他</view>
       </view>
     </view>
 
-    <view class="imgs">
-      <image src="../../static/imgs/组 17(3).png"></image>
-      <view class="imgs1">
-        <image src="../../static/imgs/组 5.png"></image>
+    <!-- 富文本 -->
+    <view class="conts">
+      <textarea class="areas" placeholder='空空如也，快点评论吧' minlength="{{min}}" maxlength="{{max}}" bindinput="inputs">
+        <!-- <text class="currentWordNumber">{{currentWordNumber}}/{{max}}</text> -->
+        <text class="hint">{{texts}}{{num}}{{textss}}</text>
+      </textarea>
+    </view>
+
+    <view class="img_box">
+      <view class="imgs">
+        <image src="../../static/imgs/组 6.png"></image>
       </view>
+
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(1).png"></image>
+        <view class="imgs1">
+          <image src="../../static/imgs/组 5.png"></image>
+        </view>
+      </view>
+
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(2).png"></image>
+        <view class="imgs1">
+          <image src="../../static/imgs/组 5.png"></image>
+        </view>
+      </view>
+
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(3).png"></image>
+        <view class="imgs1">
+          <image src="../../static/imgs/组 5.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="btn">提交申请</view>
+    <view class="look">查看保修记录</view>
+  </view>
+
+  <view wx:if="{{currentIndex == 1}}">
+    <view class="photo_box">
+
+      <view class="photo_left">
+
+        <view class="imgs">
+          <image src="../../static/imgs/组 17(1).png"></image>
+        </view>
+
+        <view class="photo_bottom">
+          <view class="p1">Dr.Jart 保湿急救网红蓝 药丸面膜</view>
+
+          <view class="p_box">
+            <view class="b1">待领20件</view>
+            <view class="b2">申领</view>
+          </view>
+
+          <view class="b_box">
+            <view class="k1">前往购买</view>
+            <view class="imgs">
+              <image src="../../static/imgs/组 18.png"></image>
+            </view>
+          </view>
+
+        </view>
+      </view>
+
+      <view class="photo_left">
+
+        <view class="imgs">
+          <image src="../../static/imgs/组 17(1).png"></image>
+        </view>
+
+        <view class="photo_bottom">
+          <view class="p1">Dr.Jart 保湿急救网红蓝 药丸面膜</view>
+
+          <view class="p_box">
+            <view class="b1">待领20件</view>
+            <view class="b2">申领</view>
+          </view>
+
+          <view class="b_box">
+            <view class="k1">前往购买</view>
+            <view class="imgs">
+              <image src="../../static/imgs/组 18.png"></image>
+            </view>
+          </view>
+
+        </view>
+      </view>
+
+    </view>
+
+    <view class="imgsss">
+      <image src="../../static/imgs/托盘.png"></image>
+    </view>
+
+    <view class="imgss">
+      <image src="../../static/imgs/点击礼物.png" animation="{{animation}}"></image>
     </view>
   </view>
 
-  <view class="btn">提交申请</view>
-  <view class="look">查看保修记录</view>
+  <view wx:if="{{currentIndex == 2}}">
+    <view class="right_b">
+
+      <view class="kong">
+        <view class="imgfa">
+          <image src="../../static/imgs/组 17(1).png"></image>
+        </view>
+        <view class="k1">XXX专柜</view>
+        <view class="long">
+          <view class="y1">保证金</view>
+          <view class="y2">￥2000.00</view>
+        </view>
+      </view>
+
+      <view class="kong">
+        <view class="imgfa">
+          <image src="../../static/imgs/组 17(1).png"></image>
+        </view>
+        <view class="k1">XXX专柜</view>
+        <view class="long">
+          <view class="y1">保证金</view>
+          <view class="y2">￥2000.00</view>
+        </view>
+      </view>
+
+
+    </view>
+  </view>
+
+
 </view>

@@ -1,0 +1,85 @@
+<!--pages/Branch_Information/Branch_Information.wxml-->
+<!-- <text>pages/Branch_Information/Branch_Information.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="box">
+    <view class="a">
+      <view class="b1">门店名称：</view>
+    </view>
+    <view class="b">
+      <input name="storeName" bindblur="handleDoor" placeholder="饿了么" maxlength="15"></input>
+    </view>
+  </view>
+
+  <view class="box">
+    <view class="a">
+      <view class="b1">联系人：</view>
+    </view>
+    <view class="b">
+      <input namr="linkman" bindblur="handleUsername" placeholder="请输入您的真实姓名" maxlength="8"></input>
+    </view>
+  </view>
+
+  <view class="box">
+    <view class="a">
+      <view class="b1">联系号码</view>
+    </view>
+    <view class="b">
+      <input name="phone" maxlength="11" placeholder="{{phone}}" disabled="false"></input>
+    </view>
+  </view>
+
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}" class="username p30">
+    <text class="b1">省/市/区：</text>
+    <!-- <input type="text" placeholder="选择所在地区"></input> -->
+    <view name="RectRegion" class="picker">{{region[0]}} {{region[1]}} {{region[2]}}</view>
+  </picker>
+
+  <view class="box">
+    <view class="a">
+      <view class="b1">详细地址</view>
+    </view>
+    <view class="b">
+      <input name="address" bindblur="handleAddress" placeholder="请输入您的门店详细地址" maxlength="15"></input>
+    </view>
+  </view>
+
+  <view class="box">
+    <view class="a">
+      <view class="b1">上传资质</view>
+    </view>
+    <view class="b">
+      <input name="photo" bindblur="handlePhoto" placeholder="请上传营业执照副本等资质" disabled="false"></input>
+    </view>
+  </view>
+
+
+  <view class="imgs" bindtap='upload' type='primary'>
+    <image wx:if="{{}}" src="../../static/group/组 2.png"></image>
+
+    <!-- 上传按钮+框 -->
+    <!-- <view class='ui_uploader' wx:if="{{showUpload}}">点我</view> -->
+
+    <!-- 容器 -->
+    <view class='photo_box'>
+      <!-- 根据已选择的图片临时路径数组展示图片-->
+      <view class='ui_uploader_item' wx:for="{{uploaderList}}" wx:key="{{index}}">
+        <!-- 删除-->
+        <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red" />
+        <!-- 图片-->
+        <image bindtap='showImg' src='{{item}}'></image>
+      </view>
+    </view>
+
+
+
+  </view>
+
+
+
+  <view class="ti" bindtap="handleTabs">提交</view>
+  <view class="jiao">提交后需要等待管理员审核，请在1-2日后进行登录</view>
+
+</view>

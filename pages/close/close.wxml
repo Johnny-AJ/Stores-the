@@ -11,7 +11,7 @@
     <view class="t3">商品交易</view>
     <view class="t4">订单总额：</view>
     <view class="a">
-      <view class="b">￥123456.00</view>
+      <view class="b">￥123456.00</view> 
       <image class="img" bindtap="toggle" src="{{isshow?'../../static/imgs//矩形 16 拷贝 2.png' :'../../static/imgs/矩形 3.png'}}"></image>
     </view>
     <view class="{{isshow?'on':'c'}}">

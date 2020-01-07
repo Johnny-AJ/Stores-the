@@ -205,3 +205,205 @@
   color: rgba(34, 34, 34, 1);
   margin-left: 281rpx;
 }
+
+/* 体验装 */
+
+.color {
+  width: 750rpx;
+  height: 100rpx;
+  background: rgba(103, 148, 250, 1);
+}
+
+.t1 {
+  width: 690rpx;
+  height: 130rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  display: flex;
+  position: absolute;
+  top: 20rpx;
+  left: 30rpx;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 1);
+}
+
+.tabTrue {
+  color: #5c9afb;
+}
+
+/* 图片 */
+
+.photo_box {
+  width: 690rpx;
+  height: 510rpx;
+  /* background: rgba(255, 255, 255, 1); */
+  border-radius: 10rpx;
+  margin-left: 30rpx;
+  margin-top: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo_left {
+  width: 330rpx;
+  height: 510rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  border: 1px solid red;
+}
+
+.photo_left .imgs image {
+  width: 330rpx;
+  height: 300rpx;
+}
+
+.photo_bottom {
+  width: 330rpx;
+  height: 210rpx;
+  margin-left: 10rpx;
+  margin-top: 130rpx;
+}
+
+.photo_bottom .p1 {
+  width: 304rpx;
+  height: 67rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 1);
+}
+
+.p_box {
+  width: 330rpx;
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.p_box .b1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(102, 102, 102, 1);
+  margin-right: 88rpx;
+}
+
+.p_box .b2 {
+  width: 110rpx;
+  height: 50rpx;
+  background: rgba(103, 148, 250, 1);
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.b_box {
+  display: flex;
+  height: 25rpx;
+  line-height: 25rpx;
+  margin-top: 20rpx;
+}
+
+.b_box .k1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 10rpx;
+}
+
+.b_box .imgs image {
+  width: 33rpx;
+  height: 22rpx;
+}
+
+/* 摇摇乐 */
+
+.imgss image {
+  width: 120rpx;
+  height: 88rpx;
+  position: absolute;
+  bottom: 135rpx;
+  right: 13rpx;
+}
+
+.imgsss image {
+  width: 147rpx;
+  height: 36rpx;
+  position: absolute;
+  bottom: 111rpx;
+  right: 0;
+}
+
+/* 体验装 */
+
+/* 专柜申请 */
+
+.right_b {
+  width: 690rpx;
+  height: 100%;
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 80rpx;
+  margin-left: 30rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kong {
+  width: 330rpx;
+  height: 420rpx;
+  border: 1px solid skyblue;
+  border-radius: 10rpx;
+}
+
+.imgfa image {
+  width: 330rpx;
+  height: 330rpx;
+}
+
+.k1 {
+  width: 330rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 10rpx;
+}
+
+.long {
+  width: 320rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.y1 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}
+
+.y2 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(240, 43, 80, 1);
+  margin-right: 20rpx;
+}
+
+/* 专柜申请 */

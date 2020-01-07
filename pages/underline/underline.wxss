@@ -109,6 +109,7 @@
 .b_box {
   display: flex;
   align-items: center;
+  height: 25rpx;
 }
 
 .b_box .k1 {
@@ -119,7 +120,7 @@
   margin-right: 10rpx;
 }
 
-.b_box .imgs image {
+.b_box .imgs imgas {
   width: 33rpx;
   height: 22rpx;
 }

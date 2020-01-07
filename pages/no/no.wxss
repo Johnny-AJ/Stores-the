@@ -1,0 +1,59 @@
+/* pages/no/no.wxss */
+
+/* pages/audit/audit.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  border-top: 1px solid #f5f5f5;
+}
+
+.img {
+  position: absolute;
+  top: 212rpx;
+  left: 238rpx;
+}
+
+.img image {
+  width: 289rpx;
+  height: 196rpx;
+}
+
+.nav {
+  width: 410rpx;
+  text-align: center;
+  position: absolute;
+  top: 504rpx;
+  left: 172rpx;
+}
+
+.b1 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(51, 51, 51, 1);
+}
+
+.b2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(102, 102, 102, 1);
+  margin-top: 20rpx;
+}
+
+.zhuce {
+  position: absolute;
+  top: 690rpx;
+  left: 200rpx;
+  width: 350rpx;
+  height: 88rpx;
+  background: rgba(103, 148, 250, 1);
+  border-radius: 44rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(254, 254, 254, 1);
+  text-align: center;
+  line-height: 88rpx;
+}

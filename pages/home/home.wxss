@@ -124,6 +124,63 @@
   right: 375rpx;
 }
 
+/*  */
+
+.imges {
+  z-index: -9;
+}
+
+.imges image {
+  width: 240rpx;
+  height: 233rpx;
+  position: absolute;
+  top: 100rpx;
+  right: 23rpx;
+}
+
+.immgs image {
+  width: 52rpx;
+  height: 40rpx;
+}
+
+.ttop {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 152rpx;
+  right: 75rpx;
+}
+
+.y1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.immgs1 image {
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.ttop1 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 252rpx;
+  right: 75rpx;
+}
+
+.c {
+  width: 690px;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20rpx;
+}
+
 /* 金额 */
 
 /* 按钮 */

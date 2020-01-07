@@ -1,0 +1,15 @@
+<!--pages/audit/audit.wxml-->
+<!-- <text>pages/audit/audit.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="img">
+    <image src="../../static/imgs/组q 4.png"></image>
+  </view>
+
+  <view class="nav">
+    <view class="b1">等待平台审核中..</view>
+    <view class="b2">(正常为1-3个工作日)</view>
+  </view>
+
+</view>
