@@ -63,16 +63,18 @@
     <!-- <view class='ui_uploader' wx:if="{{showUpload}}">点我</view> -->
 
     <!-- 容器 -->
-    <view class='photo_box'>
-      <!-- 根据已选择的图片临时路径数组展示图片-->
-      <view class='ui_uploader_item' wx:for="{{uploaderList}}" wx:key="{{index}}">
-        <!-- 删除-->
-        <icon class='ui_uploader_item_icon' bindtap='clearImg' data-index="{{index}}" type="clear" size="20" color="red" />
-        <!-- 图片-->
-        <image bindtap='showImg' src='{{item}}'></image>
+        <view class="imgs">
+      <view class='uploader-img' wx:if="{{pics}}">
+        <view class='uploader-list' wx:for="{{pics}}" wx:key="item.length">
+          <image src='{{item}}' data-index="{{index}}" mode="scaleToFill" />
+          <image class='delete' data-index="{{index}}" src='http://192.168.2.98:9095/imgs/del.png' mode="widthFix" bindtap='deleteImg' />
+        </view>
       </view>
+      <view class='upAdd' bindtap='chooseImg'>
+        <image src='http://192.168.2.98:9095//imgs/88888.png' mode="widthFix" />
+      </view>
+    
     </view>
-
 
 
   </view>

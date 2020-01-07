@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/Branch_Information/Branch_Information",
     "pages/login/login",
     "pages/home/home",
     "pages/close/close",
-    "pages/Branch_Information/Branch_Information",
     "pages/underline/underline",
     "pages/audit/audit",
     "pages/forget/forget",
