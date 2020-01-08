@@ -1,15 +1,16 @@
 {
   "pages": [
-    "pages/Branch_Information/Branch_Information",
+    "pages/financial/financial",
+    "pages/income/income",
+    "pages/close/close",
     "pages/login/login",
     "pages/home/home",
-    "pages/close/close",
+    "pages/Branch_Information/Branch_Information",
     "pages/underline/underline",
     "pages/audit/audit",
     "pages/forget/forget",
     "pages/underline_copy/underline_copy",
     "pages/exhibits/exhibits",
-    "pages/financial/financial",
     "pages/cudgeling/cudgeling",
     "pages/feedback/feedback",
     "pages/no/no",
@@ -33,7 +34,6 @@
     "pages/amount/amount",
     "pages/order_list/order_list",
     "pages/obssales/obssales",
-    "pages/income/income",
     "pages/general/general",
     "pages/index/index"
   ],

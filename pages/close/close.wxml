@@ -3,33 +3,36 @@
 
 <view class="bgc">
 
-  <view class="box">
+  <view class="box" wx:for="{{alreadyEarningList}}" wx:key="*this">
     <view class="nav_a">
-      <view class="t1">2019/07/22 12：00：00</view>
-      <view class="t1">用户1</view>
+      <view class="t1">{{item.createTime}}</view>
+      <view class="t1">{{item.userName}}</view>
     </view>
     <view class="t3">商品交易</view>
-    <view class="t4">订单总额：</view>
-    <view class="a">
-      <view class="b">￥123456.00</view> 
-      <image class="img" bindtap="toggle" src="{{isshow?'../../static/imgs//矩形 16 拷贝 2.png' :'../../static/imgs/矩形 3.png'}}"></image>
-    </view>
-    <view class="{{isshow?'on':'c'}}">
-      <view class="e">
-        <view class="t_box">
-          <view class="t5">面膜</view>
-          <view class="t5">￥79.00*2</view>
-        </view>
-        <view class="t_box">
-          <view class="t5">防晒</view>
-          <view class="t5">￥139.00*1</view>
-        </view>
-        <view class="t_box">
-          <view class="t5">截止结算时间：</view>
-          <view class="t5">2019/09/02 12:00:00</view>
-        </view>
-        <view class="t2">已完成</view>
+    <view class="t4">
+      <text>订单总额：</text>
+      <view class="a">
+        <text class="b">￥{{item.totalPrice}}</text>
+        <image class="img" bindtap="toggle" src="{{isshow?'../../static/imgs/矩形 34.png' :'../../static/imgs/矩形 34 (1).png'}}"></image>
       </view>
     </view>
+
+    <view class="{{isshow?'on':'c'}}">
+      <view class="e">
+        <view class="t_box" wx:for="{{item.earningWaresVos}}" wx:for-item="i" wx:key="*this">
+          <view class="t5">{{i.waresName}}</view>
+          <view class="t5">￥{{i.price}}*{{i.amount}}</view>
+        </view>
+     
+        <view class="t2">{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="weui-loadmore" hidden='{{!loading}}'>
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line" hidden='{{hasNext||alreadyEarningList.length<5}}'>
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">到底了</view>
   </view>
 </view>

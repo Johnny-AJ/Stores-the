@@ -174,39 +174,6 @@ Page({
         })
       }
     })
-    // wx.request({
-    //   url: 'http://192.168.2.98:9098/api/store/info/save', //完善用户信息
-    //   method: "POST",
-    //   data: {
-    //     storeName: self.data.storeName,
-    //     linkman: self.data.linkman,
-    //     phone: self.data.phone,
-    //     province: self.data.province[0],
-    //     city: self.data.city[1],
-    //     region: self.data.region[2],
-    //     imgs: self.data.uploaderList,
-    //     address: self.data.address
-    //   },
-    //   success: res => {
-    //     console.log(res, "用户信息")
-    //     if (res.data.code == 0) {
-    //       wx.showToast({
-    //         title: '信息提交中',
-    //         icon: 'none',
-    //         duration: 1500
-    //       })
-    //       wx.navigateTo({
-    //         url: "/pages/audit/audit"
-    //       })
-    //     } else {
-    //       wx.showToast({
-    //         title: res.data.msg,
-    //         icon: 'none',
-    //         duration: 1500
-    //       })
-    //     }
-    //   }
-    // })
   },
   save1() {
     console.log('save1')
@@ -253,7 +220,7 @@ Page({
     self.setData({
       phone: e.phone
     })
-    // console.log(self.data.phone, 'phone')
+
   },
 
   /**

@@ -3,48 +3,48 @@
 <view class="bgc">
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentTarget==index?"tabNav":""}}' bindtap="handTabs" data-aa="{{index}}">
-      <text class='{{currentTarget==index?"text":""}}'>{{item}}</text>
+    <view wx:for="{{title}}" wx:key="*this" class='{{currentTarget==index?"tabNav":""}}' bindtap="handTabs" data-index="{{index}}" data-day="{{item.day}}">
+      <text class='{{currentTarget==index?"text":""}}'>{{item.name}}</text>
     </view>
   </view>
 
   <view class="nav_box">
     <view class="nav">
       <view class="n1">订单数</view>
-      <view class="n1">10</view>
+      <view class="n1">{{conant.orderNum}}</view>
     </view>
 
     <view class="nav1">
       <view class="n1">订单金额</view>
-      <view class="n1">￥12345.00</view>
+      <view class="n1">￥{{conant.orderPrice}}</view>
     </view>
   </view>
 
   <view class="nav_box">
     <view class="nav">
       <view class="n1">成交订单数</view>
-      <view class="n1">10</view>
+      <view class="n1">{{conant.succeedOrderNum}}</view>
     </view>
 
     <view class="nav1">
       <view class="n1"> 成交订单金额</view>
-      <view class="n1">￥12345.00</view>
+      <view class="n1">￥{{conant.succeedOrderPrice}}</view>
     </view>
   </view>
 
   <view class="nav_box">
     <view class="nav">
       <view class="n1">未付款订单</view>
-      <view class="n1">10</view>
+      <view class="n1">{{conant.notPyOrderNum}}</view>
     </view>
 
     <view class="nav1">
       <view class="n1">未付款订单金额</view>
-      <view class="n1">￥12345.00</view>
+      <view class="n1">￥{{conant.notPayOrderPrice}}</view>
     </view>
   </view>
 
-  <view class="details">
+  <view class="details" bindtap="goto" data-day="{{day}}">
     <view class="d1">详情</view>
     <view class="img">
       <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
