@@ -35,7 +35,6 @@
     "pages/amount/amount",
     "pages/order_list/order_list",
     "pages/obssales/obssales",
-    "pages/income/income",
     "pages/general/general",
     "pages/index/index"
   ],

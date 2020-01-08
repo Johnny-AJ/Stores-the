@@ -10,11 +10,7 @@ Page({
   data: {
     mobile: '', //手机号    13189413198  13143698421  17344573220   17817891541
     code: '', //验证码
-    type: 0, //验证码类型  0注册,1重置密码,2登录,3解绑手机号,4绑定手机号
-
-
-    count: 60,
-    code: '获取验证码'
+    type: 0 //验证码类型  0注册,1重置密码,2登录,3解绑手机号,4绑定手机号
   },
   // 手机号
   handNumber(e) {
@@ -34,6 +30,10 @@ Page({
   },
   // 获取验证码
   handleVerification(e) {
+
+
+
+
     let self = this
 
     // 手机号码格式验证
@@ -65,11 +65,13 @@ Page({
     }, 1000);
 
     if (self.data.mobile) {
-      http.getRequest('/api/store/findByPhone', { //get请求
+      http.getRequest('/api/store/findByPhone', {
         phone: self.data.mobile
       }, function(res) {
         console.log(res, 'findByPhone');
+
         if (res.data.data) { //true注册  false登陆
+
           self.setData({
             type: 0
           })
@@ -77,11 +79,13 @@ Page({
             mobile: self.data.mobile,
             type: 0
           }
-          http.postRequest('/api/store/generateCode', prams1, function(res) { //post请求
+          http.postRequest('/api/store/generateCode', prams1, function(res) {
             console.log(res, "获取验证码")
             if (res.data.code == 0) {
-              console.log(res, 'generateCode1')
+
+              console.log(res,'generateCode1')
               wx.showToast({
+
                 title: '正在获取验证码',
                 icon: 'none',
                 duration: 1500
@@ -89,17 +93,19 @@ Page({
             }
           })
         } else {
+
           self.setData({
-            type: 2
+            type:2
           })
           let prams2 = {
             mobile: self.data.mobile,
             type: 2
           }
-          http.postRequest('/api/store/generateCode', prams2, function(res) {
+          http.postRequest('/api/store/generateCode', prams2, function (res) {
             console.log(res, "获取验证码")
             if (res.data.code == 0) {
-              console.log(res, 'generateCode2')
+
+            console.log(res, 'generateCode2')
               wx.showToast({
                 title: '正在获取验证码',
                 icon: 'none',
@@ -108,7 +114,41 @@ Page({
             }
           })
         }
+
       })
+      // let prams = {
+      //   mobile: self.data.mobile,
+      //   type: self.data.type
+      // }
+      // http.postRequest('/api/store/generateCode', prams, function(res) {
+      //   console.log(res, "获取验证码")
+      //   if (res.data.code == 0) {
+      //     wx.showToast({
+      //       title: '正在获取验证码',
+      //       icon: 'none',
+      //       duration: 1500
+      //     })
+      //   }
+      // })
+      // wx.request({
+      //   url: 'http://192.168.2.98:9098/api/store/generateCode',
+      //   method: 'POST',
+      //   dataType: 'application/json',
+      //   data: {
+      //     mobile: self.data.mobile,
+      //     type: self.data.type
+      //   },
+      //   success: res => {
+      //     console.log(res, "获取验证码")
+      //     if (res.data.code == 0) {
+      //       wx.showToast({
+      //         title: res.data.msg,
+      //         icon: 'none',
+      //         duration: 1500
+      //       })
+      //     }
+      //   }
+      // })
     }
   },
   // 注册/登陆
