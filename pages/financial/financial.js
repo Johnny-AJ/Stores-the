@@ -1,6 +1,6 @@
 // pages/financial/financial.js
 
-let http =require('../../utils/http.js')
+let http = require('../../utils/http.js')
 
 Page({
 
@@ -8,9 +8,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+
   },
- 
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -29,11 +29,12 @@ Page({
       url: e.currentTarget.dataset.url
     })
   },
-  goto(e){
-  console.log(e)
+  goto(e) {
+    console.log(e)
     wx.navigateTo({
       url: '/pages/close/close?name=' + e.currentTarget.dataset.name + '&s=' + e.currentTarget.dataset.s
+      //0待结算和1已结算
     })
   }
-  
+
 })
