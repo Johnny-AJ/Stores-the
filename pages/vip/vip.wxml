@@ -1,0 +1,12 @@
+<!--pages/vip/vip.wxml-->
+<!-- <text>pages/vip/vip.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="img">
+    <image src="../../static/imgs/组 1.png"></image>
+  </view>
+
+  <view class="b1">无记录</view>
+
+</view>

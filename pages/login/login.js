@@ -58,9 +58,9 @@ Page({
         return
       }
       self.data.count--
-      self.setData({
-        count: self.data.count,
-        code: self.data.count < 10 ? `请等待0${self.data.count}s` : `请等待${self.data.count}s`
+        self.setData({
+          count: self.data.count,
+          code: self.data.count < 10 ? `请等待0${self.data.count}s` : `请等待${self.data.count}s`
         })
     }, 1000);
 
@@ -151,10 +151,9 @@ Page({
       }
       http.postRequest('/api/store/register', prams2, function(res) {
         wx.navigateTo({
-          url: '/pages/Branch_Information/Branch_Information?phone=' + self.data.mobile,
+          url: '/pages/Branch_Information/Branch_Information?phone=' + self.data.mobile, //待完善门店信息
         })
       })
-
     } else {
       let prams1 = {
         code: self.data.code,

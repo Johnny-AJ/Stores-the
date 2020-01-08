@@ -3,7 +3,7 @@
 <view class="bgc">
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentTarget==index?"tabNav":""}}' bindtap="handTabs" data-aa="{{index}}">
+    <view wx:for="{{title}}" wx:key="*this" class='{{currentTarget==index?"tabNav":""}}' bindtap="handTabs" data-aa="{{index}}">
       <text class='{{currentTarget==index?"text":""}}'>{{item}}</text>
     </view>
   </view>

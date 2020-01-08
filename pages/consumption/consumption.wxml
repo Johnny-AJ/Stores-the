@@ -1,0 +1,66 @@
+<!--pages/consumption/consumption.wxml-->
+<!-- <text>pages/consumption/consumption.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="top">
+    <view class="top_t">
+      <view class="img">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="text">
+        <view class="t1">张三</view>
+        <view class="t2">2019-12-12 13:00</view>
+      </view>
+    </view>
+    <view class="top_b">
+      <view class="imgs">
+        <image src="../../static/imgs/imgs1.png"></image>
+      </view>
+      <view class="nav">
+        <view class="n1">Dr.Jart+ 宛若新生水漾宝石急救面 膜 5片/盒</view>
+        <view class="n2">￥146</view>
+        <view class="nav_n">
+          <view class="n3">蓝色</view>
+          <view class="n3">45码</view>
+          <view class="n3 p30">x1</view>
+        </view>
+      </view>
+    </view>
+    <view class="top_f">
+      <view class="f1">订单总额:￥146</view>
+      <view class="f1">提成收益:￥16</view>
+    </view>
+  </view>
+
+  <view class="top">
+    <view class="top_t">
+      <view class="img">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="text">
+        <view class="t1">张三</view>
+        <view class="t2">2019-12-12 13:00</view>
+      </view>
+    </view>
+    <view class="top_b">
+      <view class="imgs">
+        <image src="../../static/imgs/imgs1.png"></image>
+      </view>
+      <view class="nav">
+        <view class="n1">Dr.Jart+ 宛若新生水漾宝石急救面 膜 5片/盒</view>
+        <view class="n2">￥146</view>
+        <view class="nav_n">
+          <view class="n3">蓝色</view>
+          <view class="n3">45码</view>
+          <view class="n3 p30">x1</view>
+        </view>
+      </view>
+    </view>
+    <view class="top_f">
+      <view class="f1">订单总额:￥146</view>
+      <view class="f1">提成收益:￥16</view>
+    </view>
+  </view>
+</view>

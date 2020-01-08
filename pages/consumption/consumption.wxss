@@ -1,0 +1,132 @@
+/* pages/consumption/consumption.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
+  padding-top: 20rpx;
+}
+
+.top {
+  width: 750rpx;
+  height: 460rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+}
+
+.top_t {
+  width: 720rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-left: 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+
+.img image {
+  width: 44rpx;
+  height: 44rpx;
+  border-radius: 50%;
+}
+
+.t1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.t2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 300rpx;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20rpx;
+}
+
+.top_b {
+  width: 720rpx;
+  height: 239rpx;
+  margin-left: 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  padding-top: 30rpx;
+  position: relative;
+}
+
+.imgs {
+  width: 180rpx;
+  height: 239rpx;
+}
+
+.imgs image {
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.nav {
+  width: 533rpx;
+  height: 180rpx;
+  /* border: 1px solid red; */
+  margin-left: 17rpx;
+}
+
+.n1 {
+  width: 452rpx;
+  height: 70rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  padding-bottom: 76rpx;
+}
+
+.n2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  position: absolute;
+  top: 88rpx;
+  right: 30rpx;
+}
+
+.nav_n {
+  display: flex;
+  align-items: center;
+}
+
+.n3 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 25rpx;
+}
+
+.p30 {
+  margin-left: 300rpx;
+}
+
+.f1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-top: 12rpx;
+  margin-left: 511rpx;
+}

@@ -18,6 +18,7 @@
 .photo_box .imgs1 image {
   width: 750rpx;
   height: 487rpx;
+  vertical-align: top;
 }
 
 .photo_box .imgs2 image {
