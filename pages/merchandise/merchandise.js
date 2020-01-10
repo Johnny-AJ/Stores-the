@@ -1,24 +1,29 @@
-// pages/membership/membership.js
+// pages/merchandise/merchandise.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    coding: '' //扫码内容
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(e) {
+    let self = this
+    self.setData({
+      coding: e.coding
+    })
+    console.log(self.data.coding, "coding")
     wx.request({
-      url: 'http://192.168.2.98:9098/api/storFe/user/info',
+      url: 'http://192.168.2.98:9098/api/binding/store/info',
       header: {
-        token: wx.getStorageSync("token")
+        token: wx.getSton
       },
       success: res => {
-        console.log(res, "res1")
+        console.log(res, "res")
       }
     })
   },

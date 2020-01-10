@@ -23,16 +23,15 @@
         </view>
         <input name="mobile" bindblur="handNumber" maxlength="11" placeholder="输入您的手机号"></input>
       </view>
-
       <view class="const">
         <view class="imgs3">
           <image src="../../static/imgs/锁.png"></image>
         </view>
-        <input name="code" bindblur="handVerification" maxlength="6" placeholder="输入验证码"></input>
+        <input name="codes" bindblur="handVerification" maxlength="6" placeholder="输入验证码"></input>
       </view>
     </view>
     <view class="huoqu" bindtap="handleVerification">{{code}}</view>
-    <view class="zhuce" bindtap="handleRegister">注册</view>
+    <view class="zhuce" open-type="{{openType}}" plain="{{true}}" bindtap="handleRegister">注册</view>
   </view>
 
 </view>

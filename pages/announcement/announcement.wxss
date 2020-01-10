@@ -29,12 +29,12 @@
 
 .top_box .dong {
   width: 694rpx;
-  height: 147rpx;
+  height: 190rpx;
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
   color: rgba(34, 34, 34, 1);
-  margin: 20rpx 28rpx;
+  margin: 0rpx 28rpx;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;

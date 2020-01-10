@@ -1,8 +1,10 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/close/close",
+    "pages/merchandise/merchandise",
+    "pages/membership/membership",
     "pages/login/login",
+    "pages/close/close",
     "pages/no/no",
     "pages/consumption/consumption",
     "pages/vip/vip",
@@ -22,7 +24,6 @@
     "pages/withdrawal/withdrawal",
     "pages/subsidiary/subsidiary",
     "pages/barcodes/barcodes",
-    "pages/membership/membership",
     "pages/deposit/deposit",
     "pages/announcement_copy/announcement_copy",
     "pages/shop/shop",

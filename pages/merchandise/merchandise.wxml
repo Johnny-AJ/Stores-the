@@ -1,0 +1,42 @@
+<!--pages/merchandise/merchandise.wxml-->
+<!-- <text>pages/merchandise/merchandise.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="img">
+    <image src="../../static/imgs/组 17(2).png"></image>
+  </view>
+
+  <view class="const">
+    <view class="const-xin">
+      <view class="c1"></view>
+      <view class="c2">商品信息</view>
+    </view>
+  </view>
+
+  <view class="consk">
+    <view class="c3">商品名称：</view>
+    <view class="c4">Swarovski施华洛世奇女士恶魔之眼 项链眼睛链坠5172560</view>
+  </view>
+
+  <view class="consy">
+    <view class="c5">规格：</view>
+    <view class="c5">蓝色</view>
+  </view>
+
+  <view class="consy">
+    <view class="c5">绑定门店：</view>
+    <view class="c5">天河总门店</view>
+  </view>
+
+  <view class="consl">
+    <view class="c6">商品二维码：</view>
+    <view class="imgs">
+      <image src="../../static/imgs/小樱.jpg"></image>
+    </view>
+  </view>
+
+  <view class="btn">立刻绑定</view>
+
+</view>

@@ -5,21 +5,40 @@ Page({
    * 页面的初始数据
    */
   data: {
-    isshow: false //默认闭合
+    isshow: false, //默认闭合
+    result: '' //扫码内容
   },
-  handurl(e) {
-    wx.navigateTo({
-      url: e.currentTarget.dataset.url
-    })
-  },
+
   toggle(e) { //图片点击事件
-    // console.log(e)
-    // this.isshow =!this.isshow; 
     this.setData({
       isshow: !this.data.isshow
     })
-    // this.$apply();
-    // console.log(this.data.isshow)
+  },
+  handleSao: function(e) { //扫一扫
+    var _this = this;
+    wx.scanCode({
+      success: (res) => {
+        var result = res.result;
+        let code = result.match(/slm(\S*)/)[1];
+        let coding = code.split('/')[1]
+        console.log(coding, 'coding')
+        if (coding) {
+          wx.navigateTo({
+            url: '/pages/merchandise/merchandise?coding=' + coding
+          })
+        } else {
+          $Toast({
+            content: '商品已经不存在！',
+            icon: 'prompt',
+            duration: 0,
+            mask: false
+          });
+          setTimeout(() => {
+            $Toast.hide();
+          }, 5000);
+        }
+      }
+    })
   },
   /**
    * 生命周期函数--监听页面加载
@@ -41,9 +60,14 @@ Page({
   onShow: function() {
 
   },
-  handleNoticebar(e) {
+
+
+
+
+
+  handurl(e) {
     wx.navigateTo({
-      url: "/pages/announcement/announcement",
+      url: e.currentTarget.dataset.url
     })
-  }
+  },
 })
