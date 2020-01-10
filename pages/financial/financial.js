@@ -1,6 +1,6 @@
 // pages/financial/financial.js
 
-let http =require('../../utils/http.js')
+let http = require('../../utils/http.js')
 
 Page({
 
@@ -8,12 +8,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    allStoreEarning: '',//总提成（元）
-    balance: '',//账户余额（元）
-    deposit: '',//保证金（元）
-    waitStoreEarning: ''//待结算金额（元）
   },
- 
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -33,10 +29,11 @@ Page({
       url: e.currentTarget.dataset.url
     })
   },
-  goto(e){
-
+  goto(e) {
+    console.log(e)
     wx.navigateTo({
       url: '/pages/close/close?name=' + e.currentTarget.dataset.name + '&s=' + e.currentTarget.dataset.s
+      //0待结算和1已结算
     })
   },
   findAllPushAndWaitEarning(){
@@ -53,5 +50,5 @@ Page({
       console.log(res)
     })
   }
-  
+
 })

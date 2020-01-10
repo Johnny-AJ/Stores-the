@@ -13,7 +13,6 @@ Page({
     conant:{}
   },
   handTabs(e) {
-
     let self =this;
     this.setData({
       conant:{},
@@ -51,6 +50,4 @@ Page({
       url: '/pages/deduct/deduct?day='+e.currentTarget.dataset.day, 
     })
   }
-
-
 })

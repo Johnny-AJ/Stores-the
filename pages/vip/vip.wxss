@@ -1,0 +1,23 @@
+/* pages/vip/vip.wxss */
+
+.img image {
+  width: 265rpx;
+  height: 229rpx;
+  position: absolute;
+  top: 204rpx;
+  left: 243rpx;
+}
+
+.bgc {
+  border-top: 1px solid #f5f5f5;
+}
+
+.b1 {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  position: absolute;
+  top: 502rpx;
+  left: 322rpx;
+}

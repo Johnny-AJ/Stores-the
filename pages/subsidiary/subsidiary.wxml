@@ -12,8 +12,7 @@
   </view>
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":" "}}' bindtap="handtab" wx:key="*this" data-day="{{item.day}}" data-index="{{index}}">
-      <text>{{item.name}}</text> </view>
+    <view wx:for="{{title}}" wx:key="*this" class='{{currentIndex==index?"tabTrue":" "}}' bindtap="handtab" data-aa="{{index}}">{{item}}</view>
   </view>
 
   <view class="nav" wx:for="{{alreadyEarningList}}" wx:key="*this">

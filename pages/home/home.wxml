@@ -3,8 +3,8 @@
 
 <view class="bgc">
 
-  <view class="top">
-    <i-notice-bar class="aa" icon="systemprompt_fill" background-color="#5496fb" color="#f76a24" speed="3535" loop>
+  <view class="top" bindtap="handurl" data-url="/pages/announcement/announcement">
+    <i-notice-bar class="aa" icon="systemprompt_fill" background-color="#fefcec" speed="3535" loop>
       关于O2O商品上架修改问题;
     </i-notice-bar>
   </view>
@@ -40,7 +40,7 @@
         <image src="../../static/imgs/组 5 (1).png"></image>
       </view>
 
-      <view class="ttop">
+      <view class="ttop" bindtap="handleSao">
         <view class="immgs">
           <image src="../../static/imgs/扫码.png"></image>
         </view>

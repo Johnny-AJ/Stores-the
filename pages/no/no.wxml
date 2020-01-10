@@ -15,6 +15,6 @@
     <view class="b2">不通过原因：资质认证不清晰。</view>
   </view>
 
-  <view class="zhuce">去注册</view>
+  <view class="zhuce" bindtap="handleLogin" data-url="/pages/login/login">去注册</view>
 
 </view>
