@@ -3,5 +3,5 @@
     "i-tabs": "../../dist/tabs/index",
     "i-tab": "../../dist/tab/index"
   },
-  "navigationBarTitleText": "交易明细"
+  "navigationBarTitleText": "会员管理"
 }

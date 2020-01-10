@@ -74,7 +74,7 @@ function request(url, params, method, onSuccess, onFailed) {
 
           
             wx.navigateTo({
-              url: '/pages/login/login',
+              url: '/pages/logins/logins',
 
             })
           }

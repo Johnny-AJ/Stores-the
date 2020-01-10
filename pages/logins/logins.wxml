@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<view class="Box">
+  <view class="box-top">
+    <image src="../../static/imgs/试了么-圆.png"></image>
+    <view><text>试了么体验式新零售</text></view>
+  
+  </view>
+ 
+
+  <view class="box-btm">
+
+  <view class="text">
+    <view class="t1">登录后该应用将获得以下权限</view>
+    <view class="t2"> <image src="../../static/imgs/选中.png"></image> 获得你的公开信息(昵称、头像等）</view>
+  </view>
+   <button type="primary"  open-type="getUserInfo" bindtap="getUserInfo" bindgetuserinfo="handgetuserInfo">确认登录</button>
+  </view>
+
+</view>

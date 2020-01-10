@@ -11,26 +11,26 @@
 
   <view class="nav_box">
     <view class="n1">姓名：</view>
-    <view class="n2">用户名1</view>
+    <view class="n2">{{userName}}</view>
   </view>
 
   <view class="nav_box">
     <view class="n1">联系电话：</view>
-    <view class="n2">13923812345</view>
+    <view class="n2">{{phone}}</view>
   </view>
 
   <view class="nav_box">
     <view class="n1">地址：</view>
-    <view class="n2">广东省-广州市-天河区</view>
+    <view class="n2">{{address}}</view>
   </view>
 
   <view class="nav_box">
     <view class="n1">详细地址：</view>
-    <view class="n2">长湴白沙水路119号</view>
+    <view class="n2">{{addressInfo}}</view>
   </view>
 
   <view class="nav_box">
     <view class="n1">注册日期：</view>
-    <view class="n2">2019/08/23</view>
+    <view class="n2">{{createTime}}</view>
   </view>
 </view>

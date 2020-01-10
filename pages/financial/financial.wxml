@@ -10,7 +10,7 @@
         <image src="../../static/imgs/小樱.jpg"></image>
       </view>
       <view class="number">
-        <view class="n1">123456.00</view>
+        <view class="n1">{{balance}}</view>
         <view class="n2">账户余额（元）</view>
       </view>
       <view class="ti" bindtap="handleDeposit" data-url="/pages/deposit/deposit">提现</view>
@@ -21,17 +21,17 @@
 
     <view class="box1" bindtap="handurl" data-url="/pages/subsidiary/subsidiary">
       <view class="b1">总提成（元）</view>
-      <view class="b1">123456.00</view>
+      <view class="b1">{{allStoreEarning}}</view>
     </view>
 
     <view class="box1" bindtap="handurl" data-url="/pages/close/close" >
       <view class="b1">待结算金额（元）</view>
-      <view class="b1">123456.00</view>
+      <view class="b1">{{waitStoreEarning}}</view>
     </view>
 
     <view class="box1" bindtap="handurl" data-url="/pages/cudgeling/cudgeling">
       <view class="b1">保证金（元）</view>
-      <view class="b1">123456.00</view>
+      <view class="b1">{{deposit}}</view>
     </view>
   </view>
 

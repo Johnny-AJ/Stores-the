@@ -8,91 +8,47 @@
     <view class="img">
       <image src="../../static/imgs/小樱.jpg"></image>
     </view>
-    <view class="number">￥1234.00</view>
+    <view class="number">￥{{total}}</view>
   </view>
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":" "}}' bindtap="handtab" data-aa="{{index}}">{{item}}</view>
+    <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":" "}}' bindtap="handtab" wx:key="*this" data-day="{{item.day}}" data-index="{{index}}">
+      <text>{{item.name}}</text> </view>
   </view>
 
-  <view class="nav">
+  <view class="nav" wx:for="{{alreadyEarningList}}" wx:key="*this">
     <view class="box">
-      <view class="b1">2019/07/22 12：00：00</view>
-      <view class="b1">用户1</view>
+      <view class="b1">{{item.createTime}}</view>
+      <view class="b1">{{item.orderType}}</view>
     </view>
 
     <view class="box">
       <view class="b1">交易类型：</view>
-      <view class="b1">商品交易</view>
+      <view class="b1">{{item.createTime}}</view>
     </view>
 
     <view class="box">
       <view class="b1">收入：</view>
-      <view class="b1">1234.00</view>
+      <view class="b1">{{item.totalPrice}}</view>
     </view>
 
     <view class="box">
       <view class="b1">收入余额：</view>
-      <view class="b1">￥123456.00</view>
+      <view class="b1">￥{{item.incomeMoney}}</view>
     </view>
 
     <view class="box1">
       <view class="b1">提成：</view>
-      <view class="b2">1234.00</view>
+      <view class="b2">{{item.storeEarning}}</view>
     </view>
   </view>
 
-  <view class="nav">
-    <view class="box">
-      <view class="b1">2019/07/22 12：00：00</view>
-      <view class="b1">会员门店</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">交易类型：</view>
-      <view class="b1">商品交易</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">收入：</view>
-      <view class="b1">1234.00</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">收入余额：</view>
-      <view class="b1">￥123456.00</view>
-    </view>
-
-    <view class="box1">
-      <view class="b1">提成：</view>
-      <view class="b2">1234.00</view>
-    </view>
+ 
+  <view class="weui-loadmore" hidden='{{!loading}}'>
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
   </view>
-
-  <view class="nav">
-    <view class="box">
-      <view class="b1">2019/07/22 12：00：00</view>
-      <view class="b1">用户1</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">交易类型：</view>
-      <view class="b1">商品交易</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">收入：</view>
-      <view class="b1">1234.00</view>
-    </view>
-
-    <view class="box">
-      <view class="b1">收入余额：</view>
-      <view class="b1">￥123456.00</view>
-    </view>
-
-    <view class="box1">
-      <view class="b1">提成：</view>
-      <view class="b2">1234.00</view>
-    </view>
+  <view class="weui-loadmore weui-loadmore_line" hidden='{{hasNext||alreadyEarningList.length<5}}'>
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">到底了</view>
   </view>
 </view>

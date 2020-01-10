@@ -2,10 +2,13 @@
 
 .bgc {
   width: 750rpx;
-  height: 1362rpx;
-  overflow: hidden;
+  height: 100%;
+  overflow: auto;
   background-color: #f5f5f5;
-  /* background-color: skyblue; */
+}
+
+page {
+  background: #f5f5f5;
 }
 
 .top_box {
@@ -86,7 +89,6 @@
   font-size: 28rpx;
   font-family: PingFang SC;
   font-weight: 400;
-  color: rgba(204, 204, 204, 1);
   margin-left: 20rpx;
   margin-top: 20rpx;
 }
@@ -167,4 +169,68 @@
 .right_const .imgss image {
   width: 60rpx;
   height: 40rpx;
+}
+
+.tabs {
+  width: 100%;
+  height: 96rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.tabs view {
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.tabs view text {
+  border-bottom: 4rpx solid #fff;
+  padding: 0 15rpx 19rpx 15rpx;
+}
+
+.tabs view  .color {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(103, 148, 250, 1);
+  border-color: rgba(103, 148, 250, 1);
+}
+
+.bgc .weui-loadmore__tips_in-line {
+  background: #f5f5f5;
+}
+
+.store {
+  width: 100%;
+}
+
+.store .scont {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  height: 240rpx;
+  padding-top: 5rpx;
+  margin-top: 20rpx;
+  background: rgba(255, 255, 255, 1);
+}
+.store .scont view{
+  margin-top: 11rpx;
+  font-size:28rpx;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(34,34,34,1);
+}
+.store .scont view text{
+  font-size:30rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(103,148,250,1);
 }

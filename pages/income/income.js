@@ -17,6 +17,7 @@ Page({
     let self =this;
     this.setData({
       conant:{},
+      currPage: 1,
       currentTarget: e.currentTarget.dataset.index,
       day: e.currentTarget.dataset.day
     },()=>{
