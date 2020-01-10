@@ -27,7 +27,7 @@
         <view class="imgs3">
           <image src="../../static/imgs/锁.png"></image>
         </view>
-        <input name="codes" bindblur="handVerification" maxlength="6" placeholder="输入验证码"></input>
+        <input name="code" bindblur="handVerification" maxlength="6" placeholder="输入验证码"></input>
       </view>
     </view>
     <view class="huoqu" bindtap="handleVerification">{{code}}</view>

@@ -2,8 +2,8 @@
   "pages": [
     "pages/home/home",
     "pages/merchandise/merchandise",
-    "pages/membership/membership",
     "pages/login/login",
+    "pages/membership/membership",
     "pages/close/close",
     "pages/no/no",
     "pages/consumption/consumption",

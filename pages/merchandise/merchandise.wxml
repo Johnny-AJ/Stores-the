@@ -5,7 +5,7 @@
 <view class="bgc">
 
   <view class="img">
-    <image src="../../static/imgs/组 17(2).png"></image>
+    <image src="{{conList.logoUrl}}"></image>
   </view>
 
   <view class="const">
@@ -15,9 +15,8 @@
     </view>
   </view>
 
-  <view class="consk">
-    <view class="c3">商品名称：</view>
-    <view class="c4">Swarovski施华洛世奇女士恶魔之眼 项链眼睛链坠5172560</view>
+  <view class="consk" data-id="{{conList.id}}">
+    <view class="c4">{{conList.name}}</view>
   </view>
 
   <view class="consy">
@@ -27,16 +26,18 @@
 
   <view class="consy">
     <view class="c5">绑定门店：</view>
-    <view class="c5">天河总门店</view>
+    <view class="c5" wx:if='{{conList.isBingDing==0}}'>已绑定</view>
+    <view class="c5" wx:if='{{conList.isBingDing==1}}'>未绑定</view>
   </view>
 
   <view class="consl">
     <view class="c6">商品二维码：</view>
     <view class="imgs">
-      <image src="../../static/imgs/小樱.jpg"></image>
+      <image src="{{conList.logoUrl}}"></image>
     </view>
   </view>
 
-  <view class="btn">立刻绑定</view>
+  <view class="btn" bindtap="handleBindingStore" wx:if="{{conList.isBingDing == 0}}"></view>
+  <view class="btn" bindtap="handleBindingStore" wx:if="{{conList.isBingDing == 1}}">立刻绑定</view>
 
 </view>

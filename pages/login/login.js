@@ -9,7 +9,7 @@ Page({
    */
   data: {
     mobile: '', //手机号    13189413198  13143698421  17344573220   17817891541
-    codes: '', //验证码
+    code: '', //验证码
     type: 0, //验证码类型  0注册,1重置密码,2登录,3解绑手机号,4绑定手机号
 
     count: 10, //倒计时时间
@@ -27,9 +27,9 @@ Page({
     let self = this
     let code = e.detail.value
     self.setData({
-      code: codes
+      code: code
     })
-    console.log(self.data.codes, "codes")
+    console.log(self.data.code, "codes")
   },
   // 获取验证码
   handleVerification(e) {
@@ -174,7 +174,7 @@ Page({
     }
     if (self.data.type == 0) { //true注册  false登陆
       let prams2 = {
-        code: self.data.codes,
+        code: self.data.code,
         mobile: self.data.mobile,
         type: 0
       }
@@ -185,7 +185,7 @@ Page({
       })
     } else {
       let prams1 = {
-        code: self.data.codes,
+        code: self.data.code,
         mobile: self.data.mobile,
         type: 2
       }
