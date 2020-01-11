@@ -7,44 +7,46 @@
   <view class="top_box">
     <view class="top_nav">
       <view class="left_nav">
-        <view class="t1">今日新增：10</view>
+        <view class="t1">今日新增：{{newCount}}</view>
       </view>
       <view class="right_nav">
-        <view class="t1">会员总数：100</view>
+        <view class="t1">会员总数：{{allCount}}</view>
       </view>
     </view>
 
     <view class="nav_box">
       <view class="nav_box_input">
-        <input type="number" placeholder="请输入会员名字或手机号"></input>
+        <input type="number" bindblur="bindKeyInput" placeholder="请输入会员名字"></input>
       </view>
-      <view class="search">搜索</view>
+      <view class="search" bindtap="seach">搜索</view>
     </view>
   </view>
 
 
-  <i-tabs current="{{ current }}" color="#5194fb" bindchange="handleChange">
-    <i-tab key="tab1" title="会员列表"></i-tab>
-    <i-tab key="tab2" title="门店详情"></i-tab>
-  </i-tabs>
+  <view class="tabs">
+    <view wx:for="{{tabs}}" bindtap="change" wx:key="*this" data-index="{{index}}">
+      <text class="{{index==current?'color':''}}">{{item.name}}</text>
+    </view>
 
-  <view class="user_box">
+  </view>
+
+  <view class="user_box" wx:for="{{carlist}}" hidden="{{current==1}}" wx:key="*this" bindtap="goto" data-userid="{{item.userId}}">
 
     <view class="top1">
-      <view class="u1">用户1</view>
+      <view class="u1">{{item.userName}}</view>
       <view class="u2">
         <view class="imgs">
           <image src="../../static/imgs/金币.png"></image>
         </view>
-        <view class="i1">1000</view>
+        <view class="i1">{{item.integral}}</view>
       </view>
     </view>
 
-    <view class="t1">17344573220</view>
-    <view class="t1">最近一次交易时间：2019/08/23</view>
+    <view class="t1">{{item.orderPhone}}</view>
+    <view class="t1">最近一次交易时间：{{item.lastOrderTime}}</view>
     <view class="const">
       <view class="left_const">
-        <view class="c1">净消费：￥123456.00</view>
+        <view class="c1">净消费：￥{{item.allOrderPrice}}</view>
       </view>
       <view class="right_const">
         <view class="imgss">
@@ -53,56 +55,22 @@
       </view>
     </view>
   </view>
+  <view class="store"  hidden="{{current==0}}">
+    <view class="scont">
+      <view><text>一号店</text></view>
+      <view>门店电话：13923856789</view>
+      <view>营业额：￥123456.00</view>
+      <view>获得提成：￥123456.00</view>
 
-  <view class="user_box">
-
-    <view class="top1">
-      <view class="u1">用户1</view>
-      <view class="u2">
-        <view class="imgs">
-          <image src="../../static/imgs/金币.png"></image>
-        </view>
-        <view class="i1">1000</view>
-      </view>
-    </view>
-
-    <view class="t1">17344573220</view>
-    <view class="t1">最近一次交易时间：2019/08/23</view>
-    <view class="const">
-      <view class="left_const">
-        <view class="c1">净消费：￥123456.00</view>
-      </view>
-      <view class="right_const">
-        <view class="imgss">
-          <image src="../../static/imgs/组 20.png"></image>
-        </view>
-      </view>
     </view>
   </view>
 
-  <view class="user_box">
 
-    <view class="top1">
-      <view class="u1">用户1</view>
-      <view class="u2">
-        <view class="imgs">
-          <image src="../../static/imgs/金币.png"></image>
-        </view>
-        <view class="i1">1000</view>
-      </view>
-    </view>
-
-    <view class="t1">17344573220</view>
-    <view class="t1">最近一次交易时间：2019/08/23</view>
-    <view class="const">
-      <view class="left_const">
-        <view class="c1">净消费：￥123456.00</view>
-      </view>
-      <view class="right_const">
-        <view class="imgss">
-          <image src="../../static/imgs/组 20.png"></image>
-        </view>
-      </view>
-    </view>
+  <view class="weui-loadmore" hidden='{{!loading}}'>
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line" hidden='{{hasNext||carlist.length<4}}'>
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">到底了</view>
   </view>
 </view>

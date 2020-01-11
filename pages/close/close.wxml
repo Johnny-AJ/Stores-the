@@ -3,7 +3,61 @@
 
 <view class="bgc">
 
-  <view class="box" wx:for="{{alreadyEarningList}}" wx:key="*this">
+  <view class="top" wx:for="{{alreadyEarningList}}" wx:key="*this">
+
+    <view class="top_t">
+      <view class="k1">{{item.createTime}}</view>
+      <view class="k2">{{item.text}}</view>
+    </view>
+
+    <view class="top_b" wx:for="{{item.earningWaresVos}}" wx:for-item="item1" wx:key="*this">
+      <view class="imgs">
+        <image src="{{item1.logoUrl}}"></image>
+      </view>
+      <view class="nav">
+        <view class="n1">{{item1.waresName}}</view>
+        <view class="n2">￥{{item.totalPrice}}</view>
+        <view class="nav_n">
+          <view class="n3">{{item1.specification}}</view>
+          <!-- <view class="n3">45码</view> -->
+          <view class="n3 p30">x{{item1.amount}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="top_f">
+      <view class="f1">订单总额:￥{{item.totalPrice}}</view>
+      <view class="f1">提成收益:￥{{item.storeEarning}}</view>
+    </view>
+  </view>
+
+  <!-- <view class="top">
+
+    <view class="top_t">
+      <view class="k1">2019-12-12 13:00</view>
+      <view class="k2">待收货</view>
+    </view>
+
+    <view class="top_b">
+      <view class="imgs">
+        <image src="../../static/imgs/imgs1.png"></image>
+      </view>
+      <view class="nav">
+        <view class="n1">Dr.Jart+ 宛若新生水漾宝石急救面 膜 5片/盒</view>
+        <view class="n2">￥146</view>
+        <view class="nav_n">
+          <view class="n3">蓝色</view>
+          <view class="n3">45码</view>
+          <view class="n3 p30">x1</view>
+        </view>
+      </view>
+    </view>
+    <view class="top_f">
+      <view class="f1">订单总额:￥146</view>
+      <view class="f1">提成收益:￥16</view>
+    </view>
+  </view> -->
+
+  <!-- <view class="box" wx:for="{{alreadyEarningList}}" wx:key="*this">
     <view class="nav_a">
       <view class="t1">{{item.createTime}}</view>
       <view class="t1">{{item.userName}}</view>
@@ -27,7 +81,9 @@
         <view class="t2">{{item.text}}</view>
       </view>
     </view>
-  </view>
+  </view> -->
+
+
   <view class="weui-loadmore" hidden='{{!loading}}'>
     <view class="weui-loading"></view>
     <view class="weui-loadmore__tips">正在加载</view>

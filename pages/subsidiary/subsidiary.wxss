@@ -42,11 +42,16 @@
   align-items: center;
   justify-content: space-around;
 }
-
+.tabs  text{
+  padding:  10rpx 10rpx;
+  border-bottom: 4rpx solid #fff;
+}
 .tabTrue {
   color: #68a2fc;
 }
-
+.tabTrue text{
+  border-color: rgba(103,148,250,1);
+}
 /* tabs */
 
 .nav {

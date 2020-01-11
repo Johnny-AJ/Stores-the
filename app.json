@@ -1,12 +1,12 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/close/close", 
+    "pages/consumption/consumption",
     "pages/merchandise/merchandise",
     "pages/login/login",
     "pages/membership/membership",
-    "pages/close/close",
     "pages/no/no",
-    "pages/consumption/consumption",
     "pages/vip/vip",
     "pages/financial/financial",
     "pages/Branch_Information/Branch_Information",
