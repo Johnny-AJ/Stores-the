@@ -15,17 +15,17 @@
     <view class="color_b"></view>
     <view class="pricr1">
       <view class="p1">83456.05</view>
-      <view class="p2">本月门店收益</view>
+      <view class="p2">账户余额</view>
     </view>
 
     <view class="price2">
       <view class="p3">9356.00</view>
-      <view class="p4">待结算金额</view>
+      <view class="p4">本月收益</view>
     </view>
 
     <view class="price3">
       <view class="p3">1236.00</view>
-      <view class="p4">已结算金额</view>
+      <view class="p4">待结算金额</view>
     </view>
 
     <view class="imgs1">
