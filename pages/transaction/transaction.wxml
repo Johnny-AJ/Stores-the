@@ -55,9 +55,11 @@
       </view>
     </view>
   </view>
-  <view class="store"  hidden="{{current==0}}">
+  <view class="store" hidden="{{current==0}}">
     <view class="scont">
-      <view><text>一号店</text></view>
+      <view>
+        <text>一号店</text>
+      </view>
       <view>门店电话：13923856789</view>
       <view>营业额：￥123456.00</view>
       <view>获得提成：￥123456.00</view>

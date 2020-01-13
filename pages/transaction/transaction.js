@@ -29,10 +29,12 @@ Page({
   onLoad: function(options) {
     this.count();
     this.requests()
-    http.getRequest('/api/store/user/info', {}, function(res) {
-
+    http.getRequest('/api/store/user/info', {}, function(res) { //会员信息
     })
   },
+  /**
+   * 页面上拉触底事件的处理函数
+   */
   onReachBottom: function() {
     var self = this;
     if (!self.data.hasMore) return;
@@ -50,7 +52,7 @@ Page({
   },
   count() {
     let self = this;
-    http.getRequest('/api/store/user/count', {}, function(res) {
+    http.getRequest('/api/store/user/count', {}, function(res) { //会员数量
       console.log(res, 'cout')
       self.setData({
         allCount: res.data.data.allCount, //会员总数
@@ -60,7 +62,7 @@ Page({
   },
   bindKeyInput: function(e) { //失去焦点将值付给inpuvalue
     this.setData({
-      userName: e.detail.value
+      userName: e.detail.value //搜索内容
     })
   },
   requests() { //请求数据接口
@@ -73,7 +75,7 @@ Page({
     }
     http.getRequest('/api/store/user/list', prams, function(res) { //会员列表
       console.log(res, '会员列表')
-      let carlist = self.data.carlist;
+      let carlist = self.data.carlist; //会员列表
       var arr = [];
       arr = res.data.data.list;
       carlist = [...carlist, ...arr];
@@ -98,7 +100,7 @@ Page({
   },
   goto(e) {
     wx.navigateTo({
-      url: '/pages/membership/membership?userId=' + e.currentTarget.dataset.userid,
+      url: '/pages/membership/membership?userId=' + e.currentTarget.dataset.userid, //用户Id
     })
   }
 })

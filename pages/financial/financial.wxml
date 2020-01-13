@@ -10,7 +10,7 @@
         <image src="../../static/imgs/小樱.jpg"></image>
       </view>
       <view class="number">
-        <view class="n1">{{balance}}</view>
+        <view class="n1">{{allStoreEarning}}</view>
         <view class="n2">账户余额（元）</view>
       </view>
       <view class="ti" bindtap="handleDeposit" data-url="/pages/deposit/deposit">提现</view>
@@ -24,7 +24,7 @@
       <view class="b1">{{allStoreEarning}}</view>
     </view>
 
-    <view class="box1" bindtap="handurl" data-url="/pages/close/close" >
+    <view class="box1" bindtap="handurl" data-url="/pages/close/close">
       <view class="b1">待结算金额（元）</view>
       <view class="b1">{{waitStoreEarning}}</view>
     </view>
@@ -35,14 +35,14 @@
     </view>
   </view>
 
-  <view class="ding" bindtap="goto"  data-name="待结算订单" data-s="0">
+  <view class="ding" bindtap="goto" data-name="待结算订单" data-s="0">
     <view class="d1">待结算订单</view>
     <view class="img">
       <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
     </view>
   </view>
 
-  <view class="ding1" bindtap="goto"  data-name="已结算订单" data-s="1">
+  <view class="ding1" bindtap="goto" data-name="已结算订单" data-s="1">
     <view class="d1">已结算订单</view>
     <view class="img">
       <image src="../../static/imgs/矩形 16 拷贝 2.png "></image>

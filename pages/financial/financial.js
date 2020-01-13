@@ -13,7 +13,13 @@ Page({
     deposit: '', //保证金（元）
     waitStoreEarning: '' //待结算金额（元）
   },
-
+  // 提现
+  handleDeposit() {
+    let self = this
+    wx.navigateTo({
+      url: "/pages/deposit/deposit?allStoreEarning=" + self.data.allStoreEarning,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
